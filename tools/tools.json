@@ -1,0 +1,148 @@
+[
+  {
+    "tool_name": "detect",
+    "description": "Detects objects in the environment and returns a list of recognized objects, when 'object_name' is specified.",
+    "parameters": {
+      "object_name": ["string", "none"]
+    },
+    "use_cases": [
+      {
+        "description": "Asks for information about the objects around them.",
+        "action": "Returns a list of visible objects recognized by the assistant."
+      }
+    ]
+  },
+  {
+    "tool_name": "navigation",
+    "description": "Provides navigation-related functions to assist the user in reaching their destination.",
+    "parameters": {
+      "destination": ["string"]
+    },
+    "use_cases": [
+      {
+        "description": "Asks for directions to a specific location.",
+        "action": "Proposes opening a navigation application to the chosen destination (we do not intend to create a navigation tool)."
+      },
+      {
+        "description": "Asks to know their current location.",
+        "action": "Returns the last known position (possibly adding a time reference if the last known position is considered too old)."
+      }
+    ]
+  },
+  {
+    "tool_name": "person_recognition",
+    "description": "Enables the recognition of individuals and related actions.",
+    "parameters": {
+      "person_name": ["string"]
+    },
+    "use_cases": [
+      {
+        "description": "Asks to add a person to the assistant's database.",
+        "action": "Guides the user to optimally capture the face of the person to be added."
+      },
+      {
+        "description": "Asks to remove a person from the assistant's database.",
+        "action": "Requests confirmation and, if unsure, enumerates possible profiles."
+      },
+      {
+        "description": "Asks to check the presence of a specific person.",
+        "action": "Responds and, if the person is present, offers to locate them."
+      },
+      {
+        "description": "Asks to list the present persons.",
+        "action": "Returns a list of present individuals based on appearance order. For all recognized persons, provides their first name; for others, gives an index (person 0, person 1, Gerard, …)."
+      },
+      {
+        "description": "Asks if a person with a specific characteristic is present.",
+        "action": "Responds and, if the person is present, offers to locate them."
+      },
+      {
+        "description": "Asks for directions to reach a specific person.",
+        "action": "Provides instructions to find the person if they are visible."
+      },
+      {
+        "description": "Asks for an estimate of a person's age or gender.",
+        "action": "Returns the estimated age or gender of the person (only if in the assistant's database)."
+      }
+    ]
+  },
+  {
+    "tool_name": "color_recognition",
+    "description": "Recognizes colors of objects and the environment.",
+    "parameters": {
+      "object_name": ["string", "none"]
+    },
+    "use_cases": [
+      {
+        "description": "Asks for the color of an object.",
+        "action": "Returns the dominant color of the object (optionally enumerates the object's colors)."
+      },
+      {
+        "description": "Asks for the ambient color.",
+        "action": "Returns the dominant color perceived by the system."
+      },
+      {
+        "description": "Asks for the colors of visible objects for the system.",
+        "action": "Enumerates objects and indicates their colors."
+      }
+    ]
+  },
+  {
+    "tool_name": "emotion_recognition",
+    "description": "Recognizes emotions of individuals.",
+    "parameters": {
+      "person_name": ["string"]
+    },
+    "use_cases": [
+      {
+        "description": "Asks to know the mood of a person known to the assistant.",
+        "action": "Returns the detected emotion if the person is visible."
+      }
+    ]
+  },
+  {
+    "tool_name": "optical_character_recognition",
+    "description": "Performs Optical Character Recognition (OCR) on text.",
+    "parameters": {
+      "object_name": ["string", "none"]
+    },
+    "use_cases": [
+      {
+        "description": "Asks to read text written on a specific object.",
+        "action": "Returns a vocal transcription of the text."
+      },
+      {
+        "description": "Asks if there is any text to read in the environment.",
+        "action": "Returns a list of objects with text (possibly synthesizing different texts)."
+      }
+    ]
+  },
+  {
+    "tool_name": "recognizing_coins_and_banknotes",
+    "description": "Recognizes the value of coins and banknotes.",
+    "parameters": {},
+    "use_cases": [
+      {
+        "description": "Asks to recognize the value of a coin or banknote.",
+        "action": "Returns the value of the coin or banknote."
+      },
+      {
+        "description": "Asks to identify visible currency.",
+        "action": "Returns a list of detected elements and the total amount."
+      }
+    ]
+  },
+  {
+    "tool_name": "environment_description",
+    "description": "Describes the environment and answers questions about it.",
+    "parameters": {
+      "full_user_input": ["string"]
+    },
+    "use_cases": [
+      {
+        "description": "Asks for a description of the environment.",
+        "action": "Provides a 'caption' regarding what the assistant sees or a list of visible objects for the assistant."
+      }
+    ]
+  }
+]
