@@ -149,7 +149,7 @@
   },
   {
     "tool_name": "colors",
-    "description": "Recognizes the dominant color of objects and the environment.",
+    "description": "Recognizes the dominant color of objects in the environment.",
     "parameters": {
       "object_name": ["string"]
     },
@@ -191,7 +191,7 @@
   },
   {
     "tool_name": "ocr_objects",
-    "description": "Reads text from objects.",
+    "description": "Returns a list of objects with text on them.",
     "parameters": {},
     "use_cases": [
       {
@@ -203,7 +203,7 @@
   },
   {
     "tool_name": "money",
-    "description": "Recognizes the value and currency of coins and banknotes.",
+    "description": "Recognizes the value and currency of coins and banknotes. Returns a list of detected elements and the total amount.",
     "parameters": {},
     "use_cases": [
       {
@@ -227,7 +227,7 @@
   },
   {
     "tool_name": "environment_question",
-    "description": "Answers questions about it.",
+    "description": "Answers questions about the environment.",
     "parameters": {},
     "use_cases": [
       {
