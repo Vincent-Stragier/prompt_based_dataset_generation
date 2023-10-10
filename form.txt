@@ -1,0 +1,305 @@
+The tool 'detect_object' should checks if the object is detected and returns True if detected, and False otherwise.
+In the dataset a, the following user requests were generated for the tool 'detect_object':
+
+1. Is the table clear?
+2. Is the cat on the couch?
+3. Is the trash can full?
+4. Is the dog in the yard?
+5. Is the plant watered?
+
+In the dataset b, the following user requests were generated for the tool 'detect_object':
+
+1. Is there a staircase in the room?
+2. Is there a window in the room?
+3. Is there a refrigerator in the room?
+4. Is there a trash can in the room?
+5. Is there a table in the room?
+
+The tool 'enumerate_objects' should detects objects in the environment and returns a list of recognized objects.
+In the dataset a, the following user requests were generated for the tool 'enumerate_objects':
+
+1. What objects are around me?
+2. What's in my surroundings?
+3. Tell me about the objects in the room
+4. What objects are in the room?
+5. Describe the objects around me
+
+In the dataset b, the following user requests were generated for the tool 'enumerate_objects':
+
+1. What things can you detect in the room?
+2. Describe the items in the room
+3. What objects can you see in the room?
+4. Identify the items in the room
+5. List the objects in the room
+
+The tool 'navigation' should enables navigation to a specified destination.
+In the dataset a, the following user requests were generated for the tool 'navigation':
+
+1. Escort me to the train station
+2. Walk me to the library
+3. Lead me to the bookstore
+4. Assist me in reaching the theater
+5. Lead me to the sports complex
+
+In the dataset b, the following user requests were generated for the tool 'navigation':
+
+1. Guide me to the closest pharmacy.
+2. Take me to the nearest art gallery.
+3. Show me the way to the nearest museum.
+4. Lead me to the closest bank.
+5. Direct me to the nearest coffee shop.
+
+The tool 'position' should allows the user to know their current location.
+In the dataset a, the following user requests were generated for the tool 'position':
+
+1. Tell me my position.
+2. Give me my location.
+3. What is my current position?
+4. What is my position?
+5. What is my location?
+
+In the dataset b, the following user requests were generated for the tool 'position':
+
+1. What is my latitude and longitude?
+2. Tell me my address
+3. Give me my GPS coordinates
+4. What is my current location?
+5. Tell me my position
+
+The tool 'add_face' should allows adding a face to the face recognition's database.
+In the dataset a, the following user requests were generated for the tool 'add_face':
+
+1. Store Maria's face
+2. Capture Emma's face
+3. Add John's face to the database
+4. Register Bob's face
+5. Add Mark's face
+
+In the dataset b, the following user requests were generated for the tool 'add_face':
+
+1. Add Lauren to the faces I can identify.
+2. Include Tim in the face recognition system.
+3. Register David in the face recognition software.
+4. Add Sarah to the recognized faces list.
+5. Include Daniel in the face recognition system.
+
+The tool 'remove_face' should allows removing a face to the face recognition's database.
+In the dataset a, the following user requests were generated for the tool 'remove_face':
+
+1. Take out Brian's face
+2. Erase Mary's face
+3. Delete Robert's face
+4. Delete Ronald's face
+5. Erase Tom's face
+
+In the dataset b, the following user requests were generated for the tool 'remove_face':
+
+1. Delete Andrew's face from the recognition database.
+2. Delete Tom's face from the recognition database.
+3. Remove Katherine's face from the recognition system.
+4. Delete James's face from the recognition system.
+5. Delete David's face from the recognition database.
+
+The tool 'look_for_face' should allows looking for a face from the face recognition's database.
+In the dataset a, the following user requests were generated for the tool 'look_for_face':
+
+1. Recognize the face of David Miller
+2. Scrutinize the face of Rebecca Thompson
+3. Uncover the face of Laura Green
+4. Search for the face of Tom Jones
+5. Examine the face of Anthony Adams
+
+In the dataset b, the following user requests were generated for the tool 'look_for_face':
+
+1. Is Rachel here?
+2. Is Zoe present?
+3. Is Violet around?
+4. Is Olivia here?
+5. Is David in the building?
+
+The tool 'enumerate_individuals' should allows adding a face to the face recognition's database.
+In the dataset a, the following user requests were generated for the tool 'enumerate_individuals':
+
+1. Introduce a new face to the system
+2. Add a new face to the database
+3. Register the face in the system
+4. Teach the system about this person's face
+5. Remember the face of this individual
+
+In the dataset b, the following user requests were generated for the tool 'enumerate_individuals':
+
+1. Announce the identified faces
+2. Inform me of the identified faces
+3. Display the recognized faces
+4. Inform me of the people
+5. Display the recognized individuals
+
+The tool 'age_estimation' should allows estimating the age from a face present in the face recognition's database.
+In the dataset a, the following user requests were generated for the tool 'age_estimation':
+
+1. Estimate the age of Michael Johnson.
+2. Estimate the age of Christopher Davis.
+3. How old is Jane Smith?
+4. How old is Sarah Thompson?
+5. Estimate the age of John Davis.
+
+In the dataset b, the following user requests were generated for the tool 'age_estimation':
+
+1. What age is Bob?
+2. Tell me Bob's age
+3. Tell me the age of Bob
+4. Can you tell me Bob's age?
+5. Get Bob's age
+
+The tool 'gender_estimation' should allows estimating the gender from a face present in the face recognition's database.
+In the dataset a, the following user requests were generated for the tool 'gender_estimation':
+
+1. Determine the gender of the person named Sarah Johnson.
+2. Please find out the gender of Tom Williams.
+3. Tell me the gender of the person with the name Emily Brown.
+4. Can you determine the gender of David Lee?
+5. Determine the gender of the person named Tom Johnson.
+
+In the dataset b, the following user requests were generated for the tool 'gender_estimation':
+
+1. What gender is Joshua?
+2. Can you determine the gender of Christopher?
+3. Tell me the gender of Jessica.
+4. What gender is Elizabeth?
+5. Can you determine the gender of Matthew?
+
+The tool 'emotion_estimation' should allows estimating the emotion from a face present in the face recognition's database.
+In the dataset a, the following user requests were generated for the tool 'emotion_estimation':
+
+1. What is the emotion of Jason?
+2. Tell me the emotion of Olivia.
+3. What is the emotion of Tom?
+4. What is the emotion of Anthony?
+5. What is the emotion of David?
+
+In the dataset b, the following user requests were generated for the tool 'emotion_estimation':
+
+1. Can you analyze Alice's emotions?
+2. Can you determine Alice's emotional state?
+3. Can you determine Alice's emotional mood?
+4. What is Alice's emotional appearance?
+5. Can you detect Alice's emotional state?
+
+The tool 'colors' should recognizes the dominant color of objects in the environment.
+In the dataset a, the following user requests were generated for the tool 'colors':
+
+1. Can you identify the dominant color of this carpet?
+2. What is the dominant color of my shirt?
+3. What color is the sky today?
+4. What color is the ocean today?
+5. What color is the wall in this room?
+
+In the dataset b, the following user requests were generated for the tool 'colors':
+
+1. What colors can you find on the chair?
+2. Tell me about the colors of the chair.
+3. Describe the colors of the chair.
+4. Can you identify the colors of the chair?
+5. What are the colors of the chair?
+
+The tool 'object_color' should identify the dominant color of objects
+In the dataset a, the following user requests were generated for the tool 'object_color':
+
+1. Can you identify the color of my pants?
+2. Can you identify the color of my watch?
+3. Can you tell me the color of my shoes?
+4. What is the dominant color of my scarf?
+5. Can you tell me the color of my glasses?
+
+In the dataset b, the following user requests were generated for the tool 'object_color':
+
+1. What is the main color of the book?
+2. What is the dominant color of the fence?
+3. What is the main color of the flower pot?
+4. What is the main color of the couch?
+5. What is the primary color of the shelf?
+
+The tool 'ocr' should reads text from objects.
+In the dataset a, the following user requests were generated for the tool 'ocr':
+
+1. Analyze text in this photo
+2. Read the text on this image
+3. Analyze text on this certificate
+4. Transcribe text from this sign
+5. Extract text from this newspaper
+
+In the dataset b, the following user requests were generated for the tool 'ocr':
+
+1. Read the text on the board.
+2. Read the text on the newspaper.
+3. Read the text on the label.
+4. Read the text on the package.
+5. Read the text on the warning sign.
+
+The tool 'ocr_objects' should returns a list of objects with text on them.
+In the dataset a, the following user requests were generated for the tool 'ocr_objects':
+
+1. Describe objects with text
+2. Identify objects with text
+3. Inform me about objects with text in the room
+4. Inform me about objects with text
+5. Report objects with text in the room
+
+In the dataset b, the following user requests were generated for the tool 'ocr_objects':
+
+1. Are there any texts or labels to read?
+2. Is there any written information present?
+3. Can you find any objects with text on them?
+4. Are there any texts or labels to be read?
+5. Can you identify any objects with writing on them?
+
+The tool 'money' should recognizes the value and currency of coins and banknotes. Returns a list of detected elements and the total amount.
+In the dataset a, the following user requests were generated for the tool 'money':
+
+1. What is the total amount of money in my coin jar?
+2. How much money is on this table?
+3. How many coins of different denominations do I have?
+4. Can you identify the currency of this coin and banknote?
+5. What is the total value of the coins and banknotes in my backpack?
+
+In the dataset b, the following user requests were generated for the tool 'money':
+
+1. Calculate the total amount of my money
+2. Inform me of the currency value
+3. Determine the total value of my money
+4. How many coins and banknotes do I have?
+5. Identify the currency for me
+
+The tool 'environment_description' should describes the environment.
+In the dataset a, the following user requests were generated for the tool 'environment_description':
+
+1. Tell me about the smells in the room.
+2. Tell me about the walls in the room.
+3. Describe the layout of the room.
+4. Describe the lighting in the room.
+5. Describe the plants in the room.
+
+In the dataset b, the following user requests were generated for the tool 'environment_description':
+
+1. Give me a brief description of the location.
+2. Tell me about the scene around me.
+3. What can you see around here?
+4. Tell me about the area.
+5. Describe the environment for me.
+
+The tool 'environment_question' should answers questions about the environment.
+In the dataset a, the following user requests were generated for the tool 'environment_question':
+
+1. What is the wind direction right now?
+2. What is the UV index for today?
+3. What is the current soil moisture?
+4. What is the current humidity level?
+5. What is the weather forecast for today?
+
+In the dataset b, the following user requests were generated for the tool 'environment_question':
+
+1. Is it a good day for a swim?
+2. Is it humid?
+3. Is it a good day for a run?
+4. Is it a good day for a bike ride?
+5. What is the temperature?
