@@ -95,7 +95,7 @@
   },
   {
     "tool_name": "enumerate_individuals",
-    "description": "Allows adding a face to the face recognition's database.",
+    "description": "Allows 'enumerating' at a given instant the name of all the recognized persons present in the face recognition's database.",
     "parameters": {},
     "use_cases": [
       {
