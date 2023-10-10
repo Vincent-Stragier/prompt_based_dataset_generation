@@ -17,111 +17,138 @@
     "dataset": [
       {
         "user_request": "Is there a chair in the room?",
-        "command": "detect_object('chair')"
+        "command": "detect_object('chair')",
+        "rouge_score": 0.999999995
       },
       {
         "user_request": "Is there a table in the room?",
-        "command": "detect_object('table')"
+        "command": "detect_object('table')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a couch in the room?",
-        "command": "detect_object('couch')"
+        "command": "detect_object('couch')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a door in the room?",
-        "command": "detect_object('door')"
+        "command": "detect_object('door')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a window in the room?",
-        "command": "detect_object('window')"
+        "command": "detect_object('window')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a bookshelf in the room?",
-        "command": "detect_object('bookshelf')"
+        "command": "detect_object('bookshelf')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a desk in the room?",
-        "command": "detect_object('desk')"
+        "command": "detect_object('desk')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a staircase in the room?",
-        "command": "detect_object('staircase')"
+        "command": "detect_object('staircase')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a bed in the room?",
-        "command": "detect_object('bed')"
+        "command": "detect_object('bed')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a sofa in the room?",
-        "command": "detect_object('sofa')"
+        "command": "detect_object('sofa')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a cabinet in the room?",
-        "command": "detect_object('cabinet')"
+        "command": "detect_object('cabinet')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a mirror in the room?",
-        "command": "detect_object('mirror')"
+        "command": "detect_object('mirror')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a sink in the room?",
-        "command": "detect_object('sink')"
+        "command": "detect_object('sink')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a toilet in the room?",
-        "command": "detect_object('toilet')"
+        "command": "detect_object('toilet')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a shower in the room?",
-        "command": "detect_object('shower')"
+        "command": "detect_object('shower')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a bathtub in the room?",
-        "command": "detect_object('bathtub')"
+        "command": "detect_object('bathtub')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a refrigerator in the room?",
-        "command": "detect_object('refrigerator')"
+        "command": "detect_object('refrigerator')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a freezer in the room?",
-        "command": "detect_object('freezer')"
+        "command": "detect_object('freezer')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a washing machine in the room?",
-        "command": "detect_object('washing machine')"
+        "command": "detect_object('washing machine')",
+        "rouge_score": 0.7999999950222222
       },
       {
         "user_request": "Is there a dryer in the room?",
-        "command": "detect_object('dryer')"
+        "command": "detect_object('dryer')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a dishwasher in the room?",
-        "command": "detect_object('dishwasher')"
+        "command": "detect_object('dishwasher')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a trash can in the room?",
-        "command": "detect_object('trash can')"
+        "command": "detect_object('trash can')",
+        "rouge_score": 0.7999999950222222
       },
       {
         "user_request": "Is there a coffee maker in the room?",
-        "command": "detect_object('coffee maker')"
+        "command": "detect_object('coffee maker')",
+        "rouge_score": 0.7999999950222222
       },
       {
         "user_request": "Is there a microwave in the room?",
-        "command": "detect_object('microwave')"
+        "command": "detect_object('microwave')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a toaster in the room?",
-        "command": "detect_object('toaster')"
+        "command": "detect_object('toaster')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a stove in the room?",
-        "command": "detect_object('stove')"
+        "command": "detect_object('stove')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "Is there a oven in the room?",
-        "command": "detect_object('oven')"
+        "command": "detect_object('oven')",
+        "rouge_score": 0.8571428521428571
       }
     ]
   },
@@ -139,91 +166,113 @@
     "dataset": [
       {
         "user_request": "What objects are in the room?",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.999999995
       },
       {
         "user_request": "List the objects in the room",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.5454545404958678
       },
       {
         "user_request": "Tell me what objects are around me",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Describe the objects in the environment",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.5454545404958678
       },
       {
         "user_request": "Identify the objects in the area",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.5454545404958678
       },
       {
         "user_request": "Inform me about the objects nearby",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.16666666166666683
       },
       {
         "user_request": "What items are present in the room?",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.7692307642603551
       },
       {
         "user_request": "Tell me about the objects in my surroundings",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.2857142808163266
       },
       {
         "user_request": "What things can you detect in the room?",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.5714285665306124
       },
       {
         "user_request": "List the items in the area",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.36363635867768596
       },
       {
         "user_request": "Inform me about the objects in the vicinity",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "What objects can you see in the room?",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.7142857093877552
       },
       {
         "user_request": "Tell me about the objects around me",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.16666666166666683
       },
       {
         "user_request": "Describe the items in the room",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.36363635867768596
       },
       {
         "user_request": "Identify the objects around me",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.18181817685950424
       },
       {
         "user_request": "Inform me about the objects in the room",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "What objects can you find in the room?",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.7142857093877552
       },
       {
         "user_request": "Tell me about the items in the area",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Describe the objects in my surroundings",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Identify the items in the room",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.36363635867768596
       },
       {
         "user_request": "Inform me about the objects nearby",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.16666666166666683
       },
       {
         "user_request": "What things are present in the room?",
-        "command": "enumerate_objects()"
+        "command": "enumerate_objects()",
+        "rouge_score": 0.7692307642603551
       }
     ]
   },
@@ -245,95 +294,118 @@
     "dataset": [
       {
         "user_request": "Take me to the nearest grocery store.",
-        "command": "navigation('nearest grocery store')"
+        "command": "navigation('nearest grocery store')",
+        "rouge_score": 0.6153846104142012
       },
       {
         "user_request": "Guide me to the closest pharmacy.",
-        "command": "navigation('closest pharmacy')"
+        "command": "navigation('closest pharmacy')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Show me the way to the nearest bus stop.",
-        "command": "navigation('nearest bus stop')"
+        "command": "navigation('nearest bus stop')",
+        "rouge_score": 0.5714285665306124
       },
       {
         "user_request": "Help me find the closest ATM.",
-        "command": "navigation('closest ATM')"
+        "command": "navigation('closest ATM')",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Direct me to the nearest coffee shop.",
-        "command": "navigation('nearest coffee shop')"
+        "command": "navigation('nearest coffee shop')",
+        "rouge_score": 0.7692307642603551
       },
       {
         "user_request": "Lead me to the closest park.",
-        "command": "navigation('closest park')"
+        "command": "navigation('closest park')",
+        "rouge_score": 0.6666666616666668
       },
       {
         "user_request": "Take me to the nearest library.",
-        "command": "navigation('nearest library')"
+        "command": "navigation('nearest library')",
+        "rouge_score": 0.6666666616666668
       },
       {
         "user_request": "Guide me to the closest post office.",
-        "command": "navigation('closest post office')"
+        "command": "navigation('closest post office')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Show me the way to the nearest restaurant.",
-        "command": "navigation('nearest restaurant')"
+        "command": "navigation('nearest restaurant')",
+        "rouge_score": 0.6153846104142012
       },
       {
         "user_request": "Help me find the closest gas station.",
-        "command": "navigation('closest gas station')"
+        "command": "navigation('closest gas station')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Direct me to the nearest hospital.",
-        "command": "navigation('nearest hospital')"
+        "command": "navigation('nearest hospital')",
+        "rouge_score": 0.6666666616666668
       },
       {
         "user_request": "Lead me to the closest bank.",
-        "command": "navigation('closest bank')"
+        "command": "navigation('closest bank')",
+        "rouge_score": 0.6666666616666668
       },
       {
         "user_request": "Take me to the nearest movie theater.",
-        "command": "navigation('nearest movie theater')"
+        "command": "navigation('nearest movie theater')",
+        "rouge_score": 0.6153846104142012
       },
       {
         "user_request": "Guide me to the closest shopping mall.",
-        "command": "navigation('closest shopping mall')"
+        "command": "navigation('closest shopping mall')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Show me the way to the nearest museum.",
-        "command": "navigation('nearest museum')"
+        "command": "navigation('nearest museum')",
+        "rouge_score": 0.6153846104142012
       },
       {
         "user_request": "Help me find the closest gym.",
-        "command": "navigation('closest gym')"
+        "command": "navigation('closest gym')",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Direct me to the nearest hotel.",
-        "command": "navigation('nearest hotel')"
+        "command": "navigation('nearest hotel')",
+        "rouge_score": 0.6666666616666668
       },
       {
         "user_request": "Lead me to the closest theater.",
-        "command": "navigation('closest theater')"
+        "command": "navigation('closest theater')",
+        "rouge_score": 0.6666666616666668
       },
       {
         "user_request": "Take me to the nearest art gallery.",
-        "command": "navigation('nearest art gallery')"
+        "command": "navigation('nearest art gallery')",
+        "rouge_score": 0.6153846104142012
       },
       {
         "user_request": "Guide me to the closest community center.",
-        "command": "navigation('closest community center')"
+        "command": "navigation('closest community center')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Show me the way to the nearest park.",
-        "command": "navigation('nearest park')"
+        "command": "navigation('nearest park')",
+        "rouge_score": 0.6153846104142012
       },
       {
         "user_request": "Help me find the closest pet store.",
-        "command": "navigation('closest pet store')"
+        "command": "navigation('closest pet store')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Direct me to the nearest hair salon.",
-        "command": "navigation('nearest hair salon')"
+        "command": "navigation('nearest hair salon')",
+        "rouge_score": 0.6153846104142012
       }
     ]
   },
@@ -351,87 +423,108 @@
     "dataset": [
       {
         "user_request": "What is my current location?",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Tell me my position",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Where am I right now?",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.49999999531250006
       },
       {
         "user_request": "What is my current position?",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Give me my location",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Tell me where I am",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.24999999531250006
       },
       {
         "user_request": "What is my location?",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is my current address?",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Give me my address",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Tell me my address",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is my street name?",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is my city?",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is my state?",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is my country?",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is my zip code?",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is my GPS location?",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Give me my GPS coordinates",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Tell me my GPS coordinates",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is my latitude and longitude?",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Give me my latitude and longitude",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Tell me my latitude and longitude",
-        "command": "position()"
+        "command": "position()",
+        "rouge_score": 0.0
       }
     ]
   },
@@ -453,99 +546,123 @@
     "dataset": [
       {
         "user_request": "Add John to the face recognition system.",
-        "command": "add_face('John')"
+        "command": "add_face('John')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Include Jane in the known faces database.",
-        "command": "add_face('Jane')"
+        "command": "add_face('Jane')",
+        "rouge_score": 0.6153846104142012
       },
       {
         "user_request": "Add Sarah to the recognized faces list.",
-        "command": "add_face('Sarah')"
+        "command": "add_face('Sarah')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Register David in the face recognition software.",
-        "command": "add_face('David')"
+        "command": "add_face('David')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Add Emily to the faces I know.",
-        "command": "add_face('Emily')"
+        "command": "add_face('Emily')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Include Michael in the face recognition program.",
-        "command": "add_face('Michael')"
+        "command": "add_face('Michael')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Add Lisa to the faces I can identify.",
-        "command": "add_face('Lisa')"
+        "command": "add_face('Lisa')",
+        "rouge_score": 0.4285714236734694
       },
       {
         "user_request": "Register Tom in the face recognition app.",
-        "command": "add_face('Tom')"
+        "command": "add_face('Tom')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Add Jennifer to the faces database.",
-        "command": "add_face('Jennifer')"
+        "command": "add_face('Jennifer')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Include Tim in the face recognition system.",
-        "command": "add_face('Tim')"
+        "command": "add_face('Tim')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Add Jessica to the known faces list.",
-        "command": "add_face('Jessica')"
+        "command": "add_face('Jessica')",
+        "rouge_score": 0.6153846104142012
       },
       {
         "user_request": "Register Alex in the face recognition software.",
-        "command": "add_face('Alex')"
+        "command": "add_face('Alex')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Add Samantha to the faces I can recognize.",
-        "command": "add_face('Samantha')"
+        "command": "add_face('Samantha')",
+        "rouge_score": 0.4285714236734694
       },
       {
         "user_request": "Include Matthew in the face recognition program.",
-        "command": "add_face('Matthew')"
+        "command": "add_face('Matthew')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Add Elizabeth to the faces I know.",
-        "command": "add_face('Elizabeth')"
+        "command": "add_face('Elizabeth')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Register Andrew in the face recognition app.",
-        "command": "add_face('Andrew')"
+        "command": "add_face('Andrew')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Add Olivia to the faces database.",
-        "command": "add_face('Olivia')"
+        "command": "add_face('Olivia')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Include Daniel in the face recognition system.",
-        "command": "add_face('Daniel')"
+        "command": "add_face('Daniel')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Add Sophia to the known faces list.",
-        "command": "add_face('Sophia')"
+        "command": "add_face('Sophia')",
+        "rouge_score": 0.6153846104142012
       },
       {
         "user_request": "Register Christopher in the face recognition software.",
-        "command": "add_face('Christopher')"
+        "command": "add_face('Christopher')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Add Lauren to the faces I can identify.",
-        "command": "add_face('Lauren')"
+        "command": "add_face('Lauren')",
+        "rouge_score": 0.4285714236734694
       },
       {
         "user_request": "Include Katherine in the face recognition program.",
-        "command": "add_face('Katherine')"
+        "command": "add_face('Katherine')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Add Julia to the faces I can recognize.",
-        "command": "add_face('Julia')"
+        "command": "add_face('Julia')",
+        "rouge_score": 0.4285714236734694
       },
       {
         "user_request": "Register Robert in the face recognition app.",
-        "command": "add_face('Robert')"
+        "command": "add_face('Robert')",
+        "rouge_score": 0.3076923027218935
       }
     ]
   },
@@ -567,91 +684,113 @@
     "dataset": [
       {
         "user_request": "Remove Sarah from the known faces.",
-        "command": "remove_face('Sarah')"
+        "command": "remove_face('Sarah')",
+        "rouge_score": 0.8333333283333335
       },
       {
         "user_request": "Delete John from the face recognition database.",
-        "command": "remove_face('John')"
+        "command": "remove_face('John')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Remove Emily's face from the system.",
-        "command": "remove_face('Emily')"
+        "command": "remove_face('Emily')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Delete Tom's face from the recognition database.",
-        "command": "remove_face('Tom')"
+        "command": "remove_face('Tom')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Remove Jane's face from the recognition system.",
-        "command": "remove_face('Jane')"
+        "command": "remove_face('Jane')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Delete Mark's face from the recognition system.",
-        "command": "remove_face('Mark')"
+        "command": "remove_face('Mark')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Remove Lisa's face from the recognition database.",
-        "command": "remove_face('Lisa')"
+        "command": "remove_face('Lisa')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Delete David's face from the recognition database.",
-        "command": "remove_face('David')"
+        "command": "remove_face('David')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Remove Rachel's face from the recognition system.",
-        "command": "remove_face('Rachel')"
+        "command": "remove_face('Rachel')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Delete Michael's face from the recognition system.",
-        "command": "remove_face('Michael')"
+        "command": "remove_face('Michael')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Remove Laura's face from the recognition database.",
-        "command": "remove_face('Laura')"
+        "command": "remove_face('Laura')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Delete Steven's face from the recognition database.",
-        "command": "remove_face('Steven')"
+        "command": "remove_face('Steven')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Remove Katherine's face from the recognition system.",
-        "command": "remove_face('Katherine')"
+        "command": "remove_face('Katherine')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Delete Elizabeth's face from the recognition system.",
-        "command": "remove_face('Elizabeth')"
+        "command": "remove_face('Elizabeth')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Remove Daniel's face from the recognition database.",
-        "command": "remove_face('Daniel')"
+        "command": "remove_face('Daniel')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Delete Jennifer's face from the recognition database.",
-        "command": "remove_face('Jennifer')"
+        "command": "remove_face('Jennifer')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Remove Timothy's face from the recognition system.",
-        "command": "remove_face('Timothy')"
+        "command": "remove_face('Timothy')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Delete Christine's face from the recognition system.",
-        "command": "remove_face('Christine')"
+        "command": "remove_face('Christine')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Remove Matthew's face from the recognition database.",
-        "command": "remove_face('Matthew')"
+        "command": "remove_face('Matthew')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Delete Andrew's face from the recognition database.",
-        "command": "remove_face('Andrew')"
+        "command": "remove_face('Andrew')",
+        "rouge_score": 0.3076923027218935
       },
       {
         "user_request": "Remove Jessica's face from the recognition system.",
-        "command": "remove_face('Jessica')"
+        "command": "remove_face('Jessica')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Delete James's face from the recognition system.",
-        "command": "remove_face('James')"
+        "command": "remove_face('James')",
+        "rouge_score": 0.3076923027218935
       }
     ]
   },
@@ -673,99 +812,123 @@
     "dataset": [
       {
         "user_request": "Is John in the room?",
-        "command": "look_for_face('John')"
+        "command": "look_for_face('John')",
+        "rouge_score": 0.24999999531250006
       },
       {
         "user_request": "Is Jane here?",
-        "command": "look_for_face('Jane')"
+        "command": "look_for_face('Jane')",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Is Tom present?",
-        "command": "look_for_face('Tom')"
+        "command": "look_for_face('Tom')",
+        "rouge_score": 0.6666666616666668
       },
       {
         "user_request": "Is Sarah around?",
-        "command": "look_for_face('Sarah')"
+        "command": "look_for_face('Sarah')",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Is David in the building?",
-        "command": "look_for_face('David')"
+        "command": "look_for_face('David')",
+        "rouge_score": 0.24999999531250006
       },
       {
         "user_request": "Is Michael with us?",
-        "command": "look_for_face('Michael')"
+        "command": "look_for_face('Michael')",
+        "rouge_score": 0.2857142808163266
       },
       {
         "user_request": "Is Rachel here?",
-        "command": "look_for_face('Rachel')"
+        "command": "look_for_face('Rachel')",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Is Tim in the area?",
-        "command": "look_for_face('Tim')"
+        "command": "look_for_face('Tim')",
+        "rouge_score": 0.24999999531250006
       },
       {
         "user_request": "Is Helen around?",
-        "command": "look_for_face('Helen')"
+        "command": "look_for_face('Helen')",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Is Jack present?",
-        "command": "look_for_face('Jack')"
+        "command": "look_for_face('Jack')",
+        "rouge_score": 0.6666666616666668
       },
       {
         "user_request": "Is Lisa inside?",
-        "command": "look_for_face('Lisa')"
+        "command": "look_for_face('Lisa')",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Is Mark in the room?",
-        "command": "look_for_face('Mark')"
+        "command": "look_for_face('Mark')",
+        "rouge_score": 0.24999999531250006
       },
       {
         "user_request": "Is Olivia here?",
-        "command": "look_for_face('Olivia')"
+        "command": "look_for_face('Olivia')",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Is Paul present?",
-        "command": "look_for_face('Paul')"
+        "command": "look_for_face('Paul')",
+        "rouge_score": 0.6666666616666668
       },
       {
         "user_request": "Is Quinn around?",
-        "command": "look_for_face('Quinn')"
+        "command": "look_for_face('Quinn')",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Is Rebecca in the building?",
-        "command": "look_for_face('Rebecca')"
+        "command": "look_for_face('Rebecca')",
+        "rouge_score": 0.24999999531250006
       },
       {
         "user_request": "Is Sam inside?",
-        "command": "look_for_face('Sam')"
+        "command": "look_for_face('Sam')",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Is Tina here?",
-        "command": "look_for_face('Tina')"
+        "command": "look_for_face('Tina')",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Is Ursula present?",
-        "command": "look_for_face('Ursula')"
+        "command": "look_for_face('Ursula')",
+        "rouge_score": 0.6666666616666668
       },
       {
         "user_request": "Is Violet around?",
-        "command": "look_for_face('Violet')"
+        "command": "look_for_face('Violet')",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Is William in the room?",
-        "command": "look_for_face('William')"
+        "command": "look_for_face('William')",
+        "rouge_score": 0.24999999531250006
       },
       {
         "user_request": "Is Xavier inside?",
-        "command": "look_for_face('Xavier')"
+        "command": "look_for_face('Xavier')",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Is Yvonne here?",
-        "command": "look_for_face('Yvonne')"
+        "command": "look_for_face('Yvonne')",
+        "rouge_score": 0.3333333283333334
       },
       {
         "user_request": "Is Zoe present?",
-        "command": "look_for_face('Zoe')"
+        "command": "look_for_face('Zoe')",
+        "rouge_score": 0.6666666616666668
       }
     ]
   },
@@ -783,99 +946,123 @@
     "dataset": [
       {
         "user_request": "Who is in the room?",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.49999999531250006
       },
       {
         "user_request": "List the people present",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Show me the faces",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Identify the individuals",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Recognize the people",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Display the faces",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Announce the people",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Tell me who's here",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Inform me of the people",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Show the recognized faces",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Announce the recognized faces",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "List the recognized faces",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Display the recognized faces",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Inform me of the recognized faces",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Show the identified faces",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Announce the identified faces",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "List the identified faces",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Display the identified faces",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Inform me of the identified faces",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Show the recognized individuals",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Announce the recognized individuals",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "List the recognized individuals",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Display the recognized individuals",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Inform me of the recognized individuals",
-        "command": "enumerate_individuals()"
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.0
       }
     ]
   },
@@ -897,91 +1084,113 @@
     "dataset": [
       {
         "user_request": "What is the age of Bob?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "How old is Bob?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.24999999500000009
       },
       {
         "user_request": "Estimate Bob's age",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.2857142808163266
       },
       {
         "user_request": "Tell me Bob's age",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.24999999500000009
       },
       {
         "user_request": "Determine Bob's age",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.2857142808163266
       },
       {
         "user_request": "Guess Bob's age",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.2857142808163266
       },
       {
         "user_request": "What age is Bob?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Can you find Bob's age?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.4444444395061729
       },
       {
         "user_request": "Get Bob's age",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.2857142808163266
       },
       {
         "user_request": "Tell me the age of Bob",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What age is Bob?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Can you tell me Bob's age?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Please find Bob's age",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.24999999500000009
       },
       {
         "user_request": "Can you estimate Bob's age?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.4444444395061729
       },
       {
         "user_request": "Can you determine Bob's age?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.4444444395061729
       },
       {
         "user_request": "Can you guess Bob's age?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.4444444395061729
       },
       {
         "user_request": "Can you tell me Bob's age?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Can you find out Bob's age?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Can you retrieve Bob's age?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.4444444395061729
       },
       {
         "user_request": "Can you get Bob's age?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.4444444395061729
       },
       {
         "user_request": "Can you provide Bob's age?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.4444444395061729
       },
       {
         "user_request": "Can you give me Bob's age?",
-        "command": "age_estimation('Bob')"
+        "command": "age_estimation('Bob')",
+        "rouge_score": 0.39999999520000007
       }
     ]
   },
@@ -1003,279 +1212,348 @@
     "dataset": [
       {
         "user_request": "What is the gender of John?",
-        "command": "gender_estimation('John')"
+        "command": "gender_estimation('John')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Can you tell me if Jane is a man or a woman?",
-        "command": "gender_estimation('Jane')"
+        "command": "gender_estimation('Jane')",
+        "rouge_score": 0.13333332942222234
       },
       {
         "user_request": "Is Tom a male or a female?",
-        "command": "gender_estimation('Tom')"
+        "command": "gender_estimation('Tom')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What gender is Sarah?",
-        "command": "gender_estimation('Sarah')"
+        "command": "gender_estimation('Sarah')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Tell me the gender of Michael.",
-        "command": "gender_estimation('Michael')"
+        "command": "gender_estimation('Michael')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Emily a man or a woman?",
-        "command": "gender_estimation('Emily')"
+        "command": "gender_estimation('Emily')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is the gender of David?",
-        "command": "gender_estimation('David')"
+        "command": "gender_estimation('David')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Can you determine the gender of Lisa?",
-        "command": "gender_estimation('Lisa')"
+        "command": "gender_estimation('Lisa')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Jack a male or a female?",
-        "command": "gender_estimation('Jack')"
+        "command": "gender_estimation('Jack')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What gender is Mary?",
-        "command": "gender_estimation('Mary')"
+        "command": "gender_estimation('Mary')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Tell me the gender of Jennifer.",
-        "command": "gender_estimation('Jennifer')"
+        "command": "gender_estimation('Jennifer')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Robert a man or a woman?",
-        "command": "gender_estimation('Robert')"
+        "command": "gender_estimation('Robert')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is the gender of Katherine?",
-        "command": "gender_estimation('Katherine')"
+        "command": "gender_estimation('Katherine')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Can you determine the gender of Steven?",
-        "command": "gender_estimation('Steven')"
+        "command": "gender_estimation('Steven')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Susan a male or a female?",
-        "command": "gender_estimation('Susan')"
+        "command": "gender_estimation('Susan')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What gender is Timothy?",
-        "command": "gender_estimation('Timothy')"
+        "command": "gender_estimation('Timothy')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Tell me the gender of Elizabeth.",
-        "command": "gender_estimation('Elizabeth')"
+        "command": "gender_estimation('Elizabeth')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Joseph a man or a woman?",
-        "command": "gender_estimation('Joseph')"
+        "command": "gender_estimation('Joseph')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is the gender of Rebecca?",
-        "command": "gender_estimation('Rebecca')"
+        "command": "gender_estimation('Rebecca')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Can you determine the gender of Daniel?",
-        "command": "gender_estimation('Daniel')"
+        "command": "gender_estimation('Daniel')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Laura a male or a female?",
-        "command": "gender_estimation('Laura')"
+        "command": "gender_estimation('Laura')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What gender is Christopher?",
-        "command": "gender_estimation('Christopher')"
+        "command": "gender_estimation('Christopher')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Tell me the gender of Jessica.",
-        "command": "gender_estimation('Jessica')"
+        "command": "gender_estimation('Jessica')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Andrew a man or a woman?",
-        "command": "gender_estimation('Andrew')"
+        "command": "gender_estimation('Andrew')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is the gender of Rachel?",
-        "command": "gender_estimation('Rachel')"
+        "command": "gender_estimation('Rachel')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Can you determine the gender of Matthew?",
-        "command": "gender_estimation('Matthew')"
+        "command": "gender_estimation('Matthew')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Margaret a male or a female?",
-        "command": "gender_estimation('Margaret')"
+        "command": "gender_estimation('Margaret')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What gender is Joshua?",
-        "command": "gender_estimation('Joshua')"
+        "command": "gender_estimation('Joshua')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Tell me the gender of Emmanuel.",
-        "command": "gender_estimation('Emmanuel')"
+        "command": "gender_estimation('Emmanuel')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Maria a man or a woman?",
-        "command": "gender_estimation('Maria')"
+        "command": "gender_estimation('Maria')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is the gender of Benjamin?",
-        "command": "gender_estimation('Benjamin')"
+        "command": "gender_estimation('Benjamin')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Can you determine the gender of Victoria?",
-        "command": "gender_estimation('Victoria')"
+        "command": "gender_estimation('Victoria')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Olivia a male or a female?",
-        "command": "gender_estimation('Olivia')"
+        "command": "gender_estimation('Olivia')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What gender is Samuel?",
-        "command": "gender_estimation('Samuel')"
+        "command": "gender_estimation('Samuel')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Tell me the gender of Gabrielle.",
-        "command": "gender_estimation('Gabrielle')"
+        "command": "gender_estimation('Gabrielle')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Anthony a man or a woman?",
-        "command": "gender_estimation('Anthony')"
+        "command": "gender_estimation('Anthony')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is the gender of Isabella?",
-        "command": "gender_estimation('Isabella')"
+        "command": "gender_estimation('Isabella')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Can you determine the gender of Alexander?",
-        "command": "gender_estimation('Alexander')"
+        "command": "gender_estimation('Alexander')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Sophia a male or a female?",
-        "command": "gender_estimation('Sophia')"
+        "command": "gender_estimation('Sophia')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What gender is William?",
-        "command": "gender_estimation('William')"
+        "command": "gender_estimation('William')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Tell me the gender of Taylor.",
-        "command": "gender_estimation('Taylor')"
+        "command": "gender_estimation('Taylor')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Julia a man or a woman?",
-        "command": "gender_estimation('Julia')"
+        "command": "gender_estimation('Julia')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is the gender of Nicholas?",
-        "command": "gender_estimation('Nicholas')"
+        "command": "gender_estimation('Nicholas')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Can you determine the gender of Elizabeth?",
-        "command": "gender_estimation('Elizabeth')"
+        "command": "gender_estimation('Elizabeth')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Eric a male or a female?",
-        "command": "gender_estimation('Eric')"
+        "command": "gender_estimation('Eric')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What gender is Sophie?",
-        "command": "gender_estimation('Sophie')"
+        "command": "gender_estimation('Sophie')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Tell me the gender of Charles.",
-        "command": "gender_estimation('Charles')"
+        "command": "gender_estimation('Charles')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Emma a man or a woman?",
-        "command": "gender_estimation('Emma')"
+        "command": "gender_estimation('Emma')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is the gender of Danielle?",
-        "command": "gender_estimation('Danielle')"
+        "command": "gender_estimation('Danielle')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Can you determine the gender of Christopher?",
-        "command": "gender_estimation('Christopher')"
+        "command": "gender_estimation('Christopher')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Chloe a male or a female?",
-        "command": "gender_estimation('Chloe')"
+        "command": "gender_estimation('Chloe')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What gender is Matthew?",
-        "command": "gender_estimation('Matthew')"
+        "command": "gender_estimation('Matthew')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Tell me the gender of Jessica.",
-        "command": "gender_estimation('Jessica')"
+        "command": "gender_estimation('Jessica')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Isabella a man or a woman?",
-        "command": "gender_estimation('Isabella')"
+        "command": "gender_estimation('Isabella')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is the gender of Alexander?",
-        "command": "gender_estimation('Alexander')"
+        "command": "gender_estimation('Alexander')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Can you determine the gender of Olivia?",
-        "command": "gender_estimation('Olivia')"
+        "command": "gender_estimation('Olivia')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Samuel a male or a female?",
-        "command": "gender_estimation('Samuel')"
+        "command": "gender_estimation('Samuel')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What gender is Victoria?",
-        "command": "gender_estimation('Victoria')"
+        "command": "gender_estimation('Victoria')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Tell me the gender of Benjamin.",
-        "command": "gender_estimation('Benjamin')"
+        "command": "gender_estimation('Benjamin')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Benjamin a man or a woman?",
-        "command": "gender_estimation('Benjamin')"
+        "command": "gender_estimation('Benjamin')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is the gender of Taylor?",
-        "command": "gender_estimation('Taylor')"
+        "command": "gender_estimation('Taylor')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Can you determine the gender of Julia?",
-        "command": "gender_estimation('Julia')"
+        "command": "gender_estimation('Julia')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Nicholas a male or a female?",
-        "command": "gender_estimation('Nicholas')"
+        "command": "gender_estimation('Nicholas')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What gender is Elizabeth?",
-        "command": "gender_estimation('Elizabeth')"
+        "command": "gender_estimation('Elizabeth')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Tell me the gender of Eric.",
-        "command": "gender_estimation('Eric')"
+        "command": "gender_estimation('Eric')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Eric a man or a woman?",
-        "command": "gender_estimation('Eric')"
+        "command": "gender_estimation('Eric')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is the gender of Sophie?",
-        "command": "gender_estimation('Sophie')"
+        "command": "gender_estimation('Sophie')",
+        "rouge_score": 0.39999999520000007
       },
       {
         "user_request": "Can you determine the gender of Charles?",
-        "command": "gender_estimation('Charles')"
+        "command": "gender_estimation('Charles')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is Charles a male or a female?",
-        "command": "gender_estimation('Charles')"
+        "command": "gender_estimation('Charles')",
+        "rouge_score": 0.0
       }
     ]
   },
@@ -1297,91 +1575,113 @@
     "dataset": [
       {
         "user_request": "What is Alice's current emotion?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.19999999500000015
       },
       {
         "user_request": "How does Alice feel today?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is the mood of Alice?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.36363635867768596
       },
       {
         "user_request": "Can you tell me Alice's emotional state?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What emotion is Alice experiencing?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.19999999500000015
       },
       {
         "user_request": "Is Alice happy or sad?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is Alice's emotional expression?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.19999999500000015
       },
       {
         "user_request": "Can you detect Alice's emotions?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is Alice's emotional state right now?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.1666666618055557
       },
       {
         "user_request": "How does Alice's face look today?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Can you tell me Alice's emotional condition?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is Alice's emotional reaction?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.19999999500000015
       },
       {
         "user_request": "Can you determine Alice's emotional state?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is Alice's emotional disposition?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.19999999500000015
       },
       {
         "user_request": "Can you analyze Alice's emotions?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is Alice's emotional appearance?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.19999999500000015
       },
       {
         "user_request": "Can you tell me Alice's emotional condition today?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is Alice's emotional state at the moment?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.1538461491124262
       },
       {
         "user_request": "Can you detect Alice's emotional state?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is Alice's emotional expression today?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.18181817685950424
       },
       {
         "user_request": "Can you determine Alice's emotional mood?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is Alice's emotional state right now?",
-        "command": "emotion_estimation('Alice')"
+        "command": "emotion_estimation('Alice')",
+        "rouge_score": 0.1666666618055557
       }
     ]
   },
@@ -1403,91 +1703,113 @@
     "dataset": [
       {
         "user_request": "What are the colors of the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.999999995
       },
       {
         "user_request": "What is the dominant color of the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.6153846104142012
       },
       {
         "user_request": "Tell me the colors of the chair.",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Describe the colors of the chair.",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.5454545404958678
       },
       {
         "user_request": "What colors can you see on the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.5714285665306124
       },
       {
         "user_request": "What is the main color of the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.6153846104142012
       },
       {
         "user_request": "Can you identify the colors of the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.6153846104142012
       },
       {
         "user_request": "What colors does the chair have?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Tell me about the colors of the chair.",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "What colors can you detect on the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.5714285665306124
       },
       {
         "user_request": "What are the primary colors of the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.9230769181065088
       },
       {
         "user_request": "Can you tell me the colors of the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.5714285665306124
       },
       {
         "user_request": "What colors make up the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.6666666616666668
       },
       {
         "user_request": "What colors can you find on the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.5714285665306124
       },
       {
         "user_request": "What colors does the chair consist of?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "What colors can you see in the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.5714285665306124
       },
       {
         "user_request": "What colors does the chair contain?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.4999999950000001
       },
       {
         "user_request": "Can you describe the colors of the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.6153846104142012
       },
       {
         "user_request": "What colors can you identify on the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.5714285665306124
       },
       {
         "user_request": "What colors are present in the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.6153846104142012
       },
       {
         "user_request": "What colors can you recognize on the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.5714285665306124
       },
       {
         "user_request": "What colors can you perceive on the chair?",
-        "command": "colors('chair')"
+        "command": "colors('chair')",
+        "rouge_score": 0.5714285665306124
       }
     ]
   },
@@ -1509,95 +1831,118 @@
     "dataset": [
       {
         "user_request": "What is the main color of the chair?",
-        "command": "object_color('chair')"
+        "command": "object_color('chair')",
+        "rouge_score": 0.999999995
       },
       {
         "user_request": "What is the primary color of the table?",
-        "command": "object_color('table')"
+        "command": "object_color('table')",
+        "rouge_score": 0.7142857092857143
       },
       {
         "user_request": "What is the dominant color of the sofa?",
-        "command": "object_color('sofa')"
+        "command": "object_color('sofa')",
+        "rouge_score": 0.7142857092857143
       },
       {
         "user_request": "What is the main color of the bookshelf?",
-        "command": "object_color('bookshelf')"
+        "command": "object_color('bookshelf')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "What is the dominant color of the carpet?",
-        "command": "object_color('carpet')"
+        "command": "object_color('carpet')",
+        "rouge_score": 0.7142857092857143
       },
       {
         "user_request": "What is the main color of the wall?",
-        "command": "object_color('wall')"
+        "command": "object_color('wall')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "What is the primary color of the door?",
-        "command": "object_color('door')"
+        "command": "object_color('door')",
+        "rouge_score": 0.7142857092857143
       },
       {
         "user_request": "What is the dominant color of the painting?",
-        "command": "object_color('painting')"
+        "command": "object_color('painting')",
+        "rouge_score": 0.7142857092857143
       },
       {
         "user_request": "What is the main color of the flower pot?",
-        "command": "object_color('flower pot')"
+        "command": "object_color('flower pot')",
+        "rouge_score": 0.7999999950222222
       },
       {
         "user_request": "What is the primary color of the vase?",
-        "command": "object_color('vase')"
+        "command": "object_color('vase')",
+        "rouge_score": 0.7142857092857143
       },
       {
         "user_request": "What is the dominant color of the lamp?",
-        "command": "object_color('lamp')"
+        "command": "object_color('lamp')",
+        "rouge_score": 0.7142857092857143
       },
       {
         "user_request": "What is the main color of the book?",
-        "command": "object_color('book')"
+        "command": "object_color('book')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "What is the primary color of the clock?",
-        "command": "object_color('clock')"
+        "command": "object_color('clock')",
+        "rouge_score": 0.7142857092857143
       },
       {
         "user_request": "What is the dominant color of the rug?",
-        "command": "object_color('rug')"
+        "command": "object_color('rug')",
+        "rouge_score": 0.7142857092857143
       },
       {
         "user_request": "What is the main color of the couch?",
-        "command": "object_color('couch')"
+        "command": "object_color('couch')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "What is the primary color of the shelf?",
-        "command": "object_color('shelf')"
+        "command": "object_color('shelf')",
+        "rouge_score": 0.7142857092857143
       },
       {
         "user_request": "What is the dominant color of the pillow?",
-        "command": "object_color('pillow')"
+        "command": "object_color('pillow')",
+        "rouge_score": 0.7142857092857143
       },
       {
         "user_request": "What is the main color of the bed?",
-        "command": "object_color('bed')"
+        "command": "object_color('bed')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "What is the primary color of the stairs?",
-        "command": "object_color('stairs')"
+        "command": "object_color('stairs')",
+        "rouge_score": 0.7142857092857143
       },
       {
         "user_request": "What is the dominant color of the fence?",
-        "command": "object_color('fence')"
+        "command": "object_color('fence')",
+        "rouge_score": 0.7142857092857143
       },
       {
         "user_request": "What is the main color of the tree?",
-        "command": "object_color('tree')"
+        "command": "object_color('tree')",
+        "rouge_score": 0.8571428521428571
       },
       {
         "user_request": "What is the primary color of the sky?",
-        "command": "object_color('sky')"
+        "command": "object_color('sky')",
+        "rouge_score": 0.7142857092857143
       },
       {
         "user_request": "What is the dominant color of the grass?",
-        "command": "object_color('grass')"
+        "command": "object_color('grass')",
+        "rouge_score": 0.7142857092857143
       }
     ]
   },
@@ -1619,91 +1964,113 @@
     "dataset": [
       {
         "user_request": "Read the text on the sign.",
-        "command": "ocr('sign')"
+        "command": "ocr('sign')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the label.",
-        "command": "ocr('label')"
+        "command": "ocr('label')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the menu.",
-        "command": "ocr('menu')"
+        "command": "ocr('menu')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the document.",
-        "command": "ocr('document')"
+        "command": "ocr('document')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the receipt.",
-        "command": "ocr('receipt')"
+        "command": "ocr('receipt')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the book.",
-        "command": "ocr('book')"
+        "command": "ocr('book')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the magazine.",
-        "command": "ocr('magazine')"
+        "command": "ocr('magazine')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the newspaper.",
-        "command": "ocr('newspaper')"
+        "command": "ocr('newspaper')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the flyer.",
-        "command": "ocr('flyer')"
+        "command": "ocr('flyer')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the business card.",
-        "command": "ocr('business card')"
+        "command": "ocr('business card')",
+        "rouge_score": 0.7272727223140496
       },
       {
         "user_request": "Read the text on the poster.",
-        "command": "ocr('poster')"
+        "command": "ocr('poster')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the billboard.",
-        "command": "ocr('billboard')"
+        "command": "ocr('billboard')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the street sign.",
-        "command": "ocr('street sign')"
+        "command": "ocr('street sign')",
+        "rouge_score": 0.7272727223140496
       },
       {
         "user_request": "Read the text on the traffic sign.",
-        "command": "ocr('traffic sign')"
+        "command": "ocr('traffic sign')",
+        "rouge_score": 0.7272727223140496
       },
       {
         "user_request": "Read the text on the warning sign.",
-        "command": "ocr('warning sign')"
+        "command": "ocr('warning sign')",
+        "rouge_score": 0.7272727223140496
       },
       {
         "user_request": "Read the text on the package.",
-        "command": "ocr('package')"
+        "command": "ocr('package')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the envelope.",
-        "command": "ocr('envelope')"
+        "command": "ocr('envelope')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the brochure.",
-        "command": "ocr('brochure')"
+        "command": "ocr('brochure')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the ticket.",
-        "command": "ocr('ticket')"
+        "command": "ocr('ticket')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the board.",
-        "command": "ocr('board')"
+        "command": "ocr('board')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the display.",
-        "command": "ocr('display')"
+        "command": "ocr('display')",
+        "rouge_score": 0.7999999950000002
       },
       {
         "user_request": "Read the text on the screen.",
-        "command": "ocr('screen')"
+        "command": "ocr('screen')",
+        "rouge_score": 0.7999999950000002
       }
     ]
   },
@@ -1721,87 +2088,108 @@
     "dataset": [
       {
         "user_request": "Can you detect any text in the room?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.6666666616888889
       },
       {
         "user_request": "Are there any objects with text on them?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.3999999950222222
       },
       {
         "user_request": "Can you find any text in the environment?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.5333333283555556
       },
       {
         "user_request": "Is there any written information present?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.4615384565680473
       },
       {
         "user_request": "Can you identify any objects with writing?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.14285713785714302
       },
       {
         "user_request": "Are there any items with text to read?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.3999999950222222
       },
       {
         "user_request": "Can you locate any text in the area?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.5333333283555556
       },
       {
         "user_request": "Are there any texts or signs around?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.2857142807142858
       },
       {
         "user_request": "Can you detect any written content?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.1538461488757398
       },
       {
         "user_request": "Is there any text that can be read?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.5333333283555556
       },
       {
         "user_request": "Can you find any objects with text?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.14285713785714302
       },
       {
         "user_request": "Are there any texts or labels to read?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.266666661688889
       },
       {
         "user_request": "Can you identify any objects with writing?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.14285713785714302
       },
       {
         "user_request": "Are there any items with text on them?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.3999999950222222
       },
       {
         "user_request": "Can you locate any text in the environment?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.5333333283555556
       },
       {
         "user_request": "Are there any texts or signs present?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.2857142807142858
       },
       {
         "user_request": "Can you detect any written information?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.1538461488757398
       },
       {
         "user_request": "Is there any text that can be read aloud?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.4999999950781251
       },
       {
         "user_request": "Can you find any objects with text on them?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.24999999507812506
       },
       {
         "user_request": "Are there any texts or labels to be read?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.24999999507812506
       },
       {
         "user_request": "Can you identify any objects with writing on them?",
-        "command": "ocr_objects()"
+        "command": "ocr_objects()",
+        "rouge_score": 0.12499999507812519
       }
     ]
   },
@@ -1819,87 +2207,108 @@
     "dataset": [
       {
         "user_request": "How much money is there?",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.999999995
       },
       {
         "user_request": "What is the total amount of money?",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.1666666618055557
       },
       {
         "user_request": "Tell me the value of the currency",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Identify the currency for me",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "How many coins and banknotes do I have?",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.1538461491124262
       },
       {
         "user_request": "What is the currency of my money?",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.1666666618055557
       },
       {
         "user_request": "Determine the value of my money",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.18181817685950424
       },
       {
         "user_request": "Count the money for me",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.19999999500000015
       },
       {
         "user_request": "Tell me the denomination of my coins and banknotes",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "How much is my money worth?",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.5454545404958678
       },
       {
         "user_request": "Analyze the currency for me",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Inform me of the currency value",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Recognize the currency for me",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Calculate the total amount of my money",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.1666666618055557
       },
       {
         "user_request": "Identify the currency value",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Determine the total value of my money",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.1666666618055557
       },
       {
         "user_request": "Analyze the currency value for me",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Tell me the total value of my money",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.1538461491124262
       },
       {
         "user_request": "Count and identify the currency for me",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Inform me of the total currency value",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Recognize and count my money",
-        "command": "money()"
+        "command": "money()",
+        "rouge_score": 0.19999999500000015
       }
     ]
   },
@@ -1917,91 +2326,113 @@
     "dataset": [
       {
         "user_request": "Tell me about the environment.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.49999999531250006
       },
       {
         "user_request": "Describe the surroundings.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.6666666616666668
       },
       {
         "user_request": "What does the area look like?",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.22222221777777784
       },
       {
         "user_request": "Give me a description of the scene.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.19999999580000008
       },
       {
         "user_request": "Tell me about the setting.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.24999999531250006
       },
       {
         "user_request": "Provide an overview of the location.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.22222221777777784
       },
       {
         "user_request": "Describe the landscape.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.6666666616666668
       },
       {
         "user_request": "Tell me about the place.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.24999999531250006
       },
       {
         "user_request": "Give me a brief of the location.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.19999999580000008
       },
       {
         "user_request": "What can you see around here?",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Describe the area for me.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.49999999531250006
       },
       {
         "user_request": "Tell me about the scene around me.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.22222221777777784
       },
       {
         "user_request": "Give me a summary of the environment.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.3999999958
       },
       {
         "user_request": "Describe the location to me.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.49999999531250006
       },
       {
         "user_request": "Tell me about the surroundings.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.24999999531250006
       },
       {
         "user_request": "Give me a description of the place.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.19999999580000008
       },
       {
         "user_request": "Tell me about the area.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.24999999531250006
       },
       {
         "user_request": "Describe the environment for me.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.7499999953125
       },
       {
         "user_request": "Give me a brief description of the location.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.18181817785123974
       },
       {
         "user_request": "Tell me about the scene around us.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.19999999580000008
       },
       {
         "user_request": "Describe the area around me.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.49999999531250006
       },
       {
         "user_request": "Give me a summary of the surroundings.",
-        "command": "environment_description()"
+        "command": "environment_description()",
+        "rouge_score": 0.19999999580000008
       }
     ]
   },
@@ -2019,87 +2450,108 @@
     "dataset": [
       {
         "user_request": "What is the weather like today?",
-        "command": "environment_question('What is the weather like today?')"
+        "command": "environment_question('What is the weather like today?')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is it sunny outside?",
-        "command": "environment_question('Is it sunny outside?')"
+        "command": "environment_question('Is it sunny outside?')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is it raining?",
-        "command": "environment_question('Is it raining?')"
+        "command": "environment_question('Is it raining?')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "What is the temperature?",
-        "command": "environment_question('What is the temperature?')"
+        "command": "environment_question('What is the temperature?')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is it windy?",
-        "command": "environment_question('Is it windy?')"
+        "command": "environment_question('Is it windy?')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is it cloudy?",
-        "command": "environment_question('Is it cloudy?')"
+        "command": "environment_question('Is it cloudy?')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is it snowing?",
-        "command": "environment_question('Is it snowing?')"
+        "command": "environment_question('Is it snowing?')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is it a clear day?",
-        "command": "environment_question('Is it a clear day?')"
+        "command": "environment_question('Is it a clear day?')",
+        "rouge_score": 0.19999999500000015
       },
       {
         "user_request": "Is it foggy?",
-        "command": "environment_question('Is it foggy?')"
+        "command": "environment_question('Is it foggy?')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is it humid?",
-        "command": "environment_question('Is it humid?')"
+        "command": "environment_question('Is it humid?')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is it hot or cold?",
-        "command": "environment_question('Is it hot or cold?')"
+        "command": "environment_question('Is it hot or cold?')",
+        "rouge_score": 0.0
       },
       {
         "user_request": "Is it a good day for a walk?",
-        "command": "environment_question('Is it a good day for a walk?')"
+        "command": "environment_question('Is it a good day for a walk?')",
+        "rouge_score": 0.1666666618055557
       },
       {
         "user_request": "Is it a good day for a picnic?",
-        "command": "environment_question('Is it a good day for a picnic?')"
+        "command": "environment_question('Is it a good day for a picnic?')",
+        "rouge_score": 0.1666666618055557
       },
       {
         "user_request": "Is it a good day for a swim?",
-        "command": "environment_question('Is it a good day for a swim?')"
+        "command": "environment_question('Is it a good day for a swim?')",
+        "rouge_score": 0.1666666618055557
       },
       {
         "user_request": "Is it a good day for a bike ride?",
-        "command": "environment_question('Is it a good day for a bike ride?')"
+        "command": "environment_question('Is it a good day for a bike ride?')",
+        "rouge_score": 0.1538461491124262
       },
       {
         "user_request": "Is it a good day for gardening?",
-        "command": "environment_question('Is it a good day for gardening?')"
+        "command": "environment_question('Is it a good day for gardening?')",
+        "rouge_score": 0.1666666618055557
       },
       {
         "user_request": "Is it a good day for a hike?",
-        "command": "environment_question('Is it a good day for a hike?')"
+        "command": "environment_question('Is it a good day for a hike?')",
+        "rouge_score": 0.1666666618055557
       },
       {
         "user_request": "Is it a good day for a run?",
-        "command": "environment_question('Is it a good day for a run?')"
+        "command": "environment_question('Is it a good day for a run?')",
+        "rouge_score": 0.1666666618055557
       },
       {
         "user_request": "Is it a good day for a walk with my dog?",
-        "command": "environment_question('Is it a good day for a walk with my dog?')"
+        "command": "environment_question('Is it a good day for a walk with my dog?')",
+        "rouge_score": 0.13333332888888905
       },
       {
         "user_request": "Is it a good day for a barbecue?",
-        "command": "environment_question('Is it a good day for a barbecue?')"
+        "command": "environment_question('Is it a good day for a barbecue?')",
+        "rouge_score": 0.1666666618055557
       },
       {
         "user_request": "Is it a good day for a beach trip?",
-        "command": "environment_question('Is it a good day for a beach trip?')"
+        "command": "environment_question('Is it a good day for a beach trip?')",
+        "rouge_score": 0.1538461491124262
       }
     ]
   }
