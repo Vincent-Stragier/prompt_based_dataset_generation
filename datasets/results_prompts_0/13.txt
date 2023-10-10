@@ -1,0 +1,29 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'ocr(object_name: string)' is a tool that Reads text from objects.
+You should use the following format for your answers: `{'user_request': '<the generated user request>', 'command': 'command_to_execute(parameters)'}`
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Read the text on this image", "command": "ocr(object_name: 'image.jpg')"},
+{"user_request": "Extract text from this document", "command": "ocr(object_name: 'document.pdf')"},
+{"user_request": "Scan this paper for text", "command": "ocr(object_name: 'paper.png')"},
+{"user_request": "Recognize text in this video", "command": "ocr(object_name: 'video.mp4')"},
+{"user_request": "Identify text on this screen", "command": "ocr(object_name: 'screen.png')"},
+{"user_request": "Analyze text in this photo", "command": "ocr(object_name: 'photo.jpg')"},
+{"user_request": "Detect text on this receipt", "command": "ocr(object_name: 'receipt.jpg')"},
+{"user_request": "Retrieve text from this book", "command": "ocr(object_name: 'book.pdf')"},
+{"user_request": "Capture text from this menu", "command": "ocr(object_name: 'menu.png')"},
+{"user_request": "Transcribe text from this sign", "command": "ocr(object_name: 'sign.jpg')"},
+{"user_request": "Decode text on this poster", "command": "ocr(object_name: 'poster.jpg')"},
+{"user_request": "Interpret text in this magazine", "command": "ocr(object_name: 'magazine.pdf')"},
+{"user_request": "Extract text from this newspaper", "command": "ocr(object_name: 'newspaper.jpg')"},
+{"user_request": "Recognize text on this billboard", "command": "ocr(object_name: 'billboard.jpg')"},
+{"user_request": "Read text from this business card", "command": "ocr(object_name: 'business_card.jpg')"},
+{"user_request": "Retrieve text from this label", "command": "ocr(object_name: 'label.png')"},
+{"user_request": "Scan text from this brochure", "command": "ocr(object_name: 'brochure.pdf')"},
+{"user_request": "Analyze text on this certificate", "command": "ocr(object_name: 'certificate.jpg')"},
+{"user_request": "Capture text from this flyer", "command": "ocr(object_name: 'flyer.png')"},
+{"user_request": "Transcribe text from this receipt", "command": "ocr(object_name: 'receipt.jpg')"},
+{"user_request": "Decode text on this packaging", "command": "ocr(object_name: 'packaging.jpg')"},
+{"user_request": "Interpret text in this magazine", "command": "ocr(object_name: 'magazine.pdf')"}
+]</s>

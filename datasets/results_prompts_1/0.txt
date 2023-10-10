@@ -1,0 +1,38 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'detect_object(object_name: string)' is a tool that Checks if the object is detected and returns True if detected, and False otherwise.
+One possible user request is: `Is there a chair in the room?`
+the format of the generation should follow this:
+ {'user_request': 'Is there a chair in the room?', 'command': "detect_object('chair')"}
+and you should generate other possible user requests.
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Is there a chair in the room?", "command": "detect_object('chair')"},
+{"user_request": "Is there a table in the room?", "command": "detect_object('table')"},
+{"user_request": "Is there a couch in the room?", "command": "detect_object('couch')"},
+{"user_request": "Is there a door in the room?", "command": "detect_object('door')"},
+{"user_request": "Is there a window in the room?", "command": "detect_object('window')"},
+{"user_request": "Is there a lamp in the room?", "command": "detect_object('lamp')"},s"},
+{"user_request": "Is there a bookshelf in the room?", "command": "detect_object('bookshelf')"},
+{"user_request": "Is there a desk in the room?", "command": "detect_object('desk')"},
+{"user_request": "Is there a staircase in the room?", "command": "detect_object('staircase')"},
+{"user_request": "Is there a bed in the room?", "command": "detect_object('bed')"},
+{"user_request": "Is there a sofa in the room?", "command": "detect_object('sofa')"},
+{"user_request": "Is there a cabinet in the room?", "command": "detect_object('cabinet')"},
+{"user_request": "Is there a mirror in the room?", "command": "detect_object('mirror')"},
+{"user_request": "Is there a sink in the room?", "command": "detect_object('sink')"},
+{"user_request": "Is there a toilet in the room?", "command": "detect_object('toilet')"},
+{"user_request": "Is there a shower in the room?", "command": "detect_object('shower')"},
+{"user_request": "Is there a bathtub in the room?", "command": "detect_object('bathtub')"},
+{"user_request": "Is there a refrigerator in the room?", "command": "detect_object('refrigerator')"},
+{"user_request": "Is there a freezer in the room?", "command": "detect_object('freezer')"},
+{"user_request": "Is there a washing machine in the room?", "command": "detect_object('washing machine')"},
+{"user_request": "Is there a dryer in the room?", "command": "detect_object('dryer')"},
+{"user_request": "Is there a dishwasher in the room?", "command": "detect_object('dishwasher')"},
+{"user_request": "Is there a trash can in the room?", "command": "detect_object('trash can')"},
+{"user_request": "Is there a coffee maker in the room?", "command": "detect_object('coffee maker')"},
+{"user_request": "Is there a microwave in the room?", "command": "detect_object('microwave')"},
+{"user_request": "Is there a toaster in the room?", "command": "detect_object('toaster')"},
+{"user_request": "Is there a stove in the room?", "command": "detect_object('stove')"},
+{"user_request": "Is there a oven in the room?", "command": "detect_object('oven')"},
+]</s>

@@ -1,0 +1,29 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'ocr_objects()' is a tool that Returns a list of objects with text on them.
+You should use the following format for your answers: `{'user_request': '<the generated user request>', 'command': 'command_to_execute(parameters)'}`
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Read the text on the objects in the room", "command": "ocr_objects()"},
+{"user_request": "Identify objects with text in the room", "command": "ocr_objects()"},
+{"user_request": "Tell me about objects with text in the room", "command": "ocr_objects()"},
+{"user_request": "Describe objects with text in the room", "command": "ocr_objects()"},s
+{"user_request": "List objects with text in the room", "command": "ocr_objects()"},
+{"user_request": "Announce objects with text in the room", "command": "ocr_objects()"},
+{"user_request": "Inform me about objects with text in the room", "command": "ocr_objects()"},
+{"user_request": "Report objects with text in the room", "command": "ocr_objects()"},
+{"user_request": "Tell me about objects with text", "command": "ocr_objects()"},
+{"user_request": "Describe objects with text", "command": "ocr_objects()"},
+{"user_request": "List objects with text", "command": "ocr_objects()"},
+{"user_request": "Announce objects with text", "command": "ocr_objects()"},
+{"user_request": "Inform me about objects with text", "command": "ocr_objects()"},
+{"user_request": "Report objects with text", "command": "ocr_objects()"},
+{"user_request": "Read the text on the objects", "command": "ocr_objects()"},
+{"user_request": "Identify objects with text", "command": "ocr_objects()"},
+{"user_request": "Tell me about objects with text", "command": "ocr_objects()"},
+{"user_request": "Describe objects with text", "command": "ocr_objects()"},
+{"user_request": "List objects with text", "command": "ocr_objects()"},
+{"user_request": "Announce objects with text", "command": "ocr_objects()"},
+{"user_request": "Inform me about objects with text", "command": "ocr_objects()"},
+{"user_request": "Report objects with text", "command": "ocr_objects()"}
+]</s>

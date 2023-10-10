@@ -1,0 +1,28 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'money()' is a tool that Recognizes the value and currency of coins and banknotes. Returns a list of detected elements and the total amount.
+You should use the following format for your answers: `{'user_request': '<the generated user request>', 'command': 'command_to_execute(parameters)'}`
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "How much money do I have in my wallet?", "command": "money(wallet)"},
+{"user_request": "What is the total value of the coins in my pocket?", "command": "money(pocket)"},
+{"user_request": "Can you identify the currency of this banknote?", "command": "money(banknote)"},
+{"user_request": "How many coins of a certain denomination do I have?", "command": "money(coins, denomination)"},
+{"user_request": "Tell me the value of this coin.", "command": "money(coin)"},
+{"user_request": "What is the total amount of money in my piggy bank?", "command": "money(piggy_bank)"},
+{"user_request": "How much money is on this table?", "command": "money(table)"},
+{"user_request": "Can you identify the currency of this coin?", "command": "money(coin)"},
+{"user_request": "What is the total value of the banknotes in my wallet?", "command": "money(wallet, banknotes)"},
+{"user_request": "How many coins of different denominations do I have?", "command": "money(coins, denominations)"},
+{"user_request": "What is the total amount of money in my coin collection?", "command": "money(coin_collection)"},
+{"user_request": "Can you identify the currency of this coin and banknote?", "command": "money(coin, banknote)"},
+{"user_request": "How much money is in my cash register?", "command": "money(cash_register)"},
+{"user_request": "What is the total value of the coins and banknotes in my purse?", "command": "money(purse)"},
+{"user_request": "Can you identify the currency of this coin and tell me its value?", "command": "money(coin, value)"},
+{"user_request": "How many coins of a certain denomination are in my coin collection?", "command": "money(coin_collection, denomination)"},
+{"user_request": "What is the total amount of money in my coin jar?", "command": "money(coin_jar)"},
+{"user_request": "Can you identify the currency of this coin and tell me how many I have?", "command": "money(coin, count)"},
+{"user_request": "How much money is on my desk?", "command": "money(desk)"},
+{"user_request": "What is the total value of the coins and banknotes in my backpack?", "command": "money(backpack)"},
+{"user_request": "Can you identify the currency of this coin and tell me how many of a different denomination I have?", "command": "money(coin, denomination2, count)"}
+]</s>

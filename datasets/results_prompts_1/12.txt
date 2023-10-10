@@ -1,0 +1,34 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'object_color(object_name: string)' is a tool that Identify the dominant color of objects
+One possible user request is: `What is the main color of the chair?`
+the format of the generation should follow this:
+ {'user_request': 'What is the main color of the chair?', 'command': "object_color('chair')"}
+and you should generate other possible user requests.
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "What is the main color of the chair?", "command": "object_color('chair')"},
+{"user_request": "What is the primary color of the table?", "command": "object_color('table')"},
+{"user_request": "What is the dominant color of the sofa?", "command": "object_color('sofa')"},
+{"user_request": "What is the main color of the bookshelf?", "command": "object_color('bookshelf')"},
+{"user_request": "What is the primary color of the curtains?", "command": "object_color('curtains')"},s"},
+{"user_request": "What is the dominant color of the carpet?", "command": "object_color('carpet')"},
+{"user_request": "What is the main color of the wall?", "command": "object_color('wall')"},
+{"user_request": "What is the primary color of the door?", "command": "object_color('door')"},
+{"user_request": "What is the dominant color of the painting?", "command": "object_color('painting')"},
+{"user_request": "What is the main color of the flower pot?", "command": "object_color('flower pot')"},
+{"user_request": "What is the primary color of the vase?", "command": "object_color('vase')"},
+{"user_request": "What is the dominant color of the lamp?", "command": "object_color('lamp')"},
+{"user_request": "What is the main color of the book?", "command": "object_color('book')"},
+{"user_request": "What is the primary color of the clock?", "command": "object_color('clock')"},
+{"user_request": "What is the dominant color of the rug?", "command": "object_color('rug')"},
+{"user_request": "What is the main color of the couch?", "command": "object_color('couch')"},
+{"user_request": "What is the primary color of the shelf?", "command": "object_color('shelf')"},
+{"user_request": "What is the dominant color of the pillow?", "command": "object_color('pillow')"},
+{"user_request": "What is the main color of the bed?", "command": "object_color('bed')"},
+{"user_request": "What is the primary color of the stairs?", "command": "object_color('stairs')"},
+{"user_request": "What is the dominant color of the fence?", "command": "object_color('fence')"},
+{"user_request": "What is the main color of the tree?", "command": "object_color('tree')"},
+{"user_request": "What is the primary color of the sky?", "command": "object_color('sky')"},
+{"user_request": "What is the dominant color of the grass?", "command": "object_color('grass')"}
+]</s>

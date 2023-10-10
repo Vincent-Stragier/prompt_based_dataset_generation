@@ -1,0 +1,28 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'add_face(person_name: string)' is a tool that Allows adding a face to the face recognition's database.
+You should use the following format for your answers: `{'user_request': '<the generated user request>', 'command': 'command_to_execute(parameters)'}`
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Add John's face to the database", "command": "add_face(person_name='John')"},
+{"user_request": "Store Jane's face in the system", "command": "add_face(person_name='Jane')"},
+{"user_request": "Register Bob's face", "command": "add_face(person_name='Bob')"},
+{"user_request": "Save Sarah's face", "command": "add_face(person_name='Sarah')"},
+{"user_request": "Upload Tim's face", "command": "add_face(person_name='Tim')"},
+{"user_request": "Capture Lisa's face", "command": "add_face(person_name='Lisa')"},
+{"user_request": "Record Emily's face", "command": "add_face(person_name='Emily')"},
+{"user_request": "Add David's face", "command": "add_face(person_name='David')"},
+{"user_request": "Store Michael's face", "command": "add_face(person_name='Michael')"},
+{"user_request": "Register Rachel's face", "command": "add_face(person_name='Rachel')"},
+{"user_request": "Save Daniel's face", "command": "add_face(person_name='Daniel')"},
+{"user_request": "Upload Jennifer's face", "command": "add_face(person_name='Jennifer')"},
+{"user_request": "Capture Chris's face", "command": "add_face(person_name='Chris')"},
+{"user_request": "Record Elizabeth's face", "command": "add_face(person_name='Elizabeth')"},
+{"user_request": "Add Mark's face", "command": "add_face(person_name='Mark')"},
+{"user_request": "Store Maria's face", "command": "add_face(person_name='Maria')"},
+{"user_request": "Register Tom's face", "command": "add_face(person_name='Tom')"},
+{"user_request": "Save Olivia's face", "command": "add_face(person_name='Olivia')"},
+{"user_request": "Upload Jack's face", "command": "add_face(person_name='Jack')"},
+{"user_request": "Capture Emma's face", "command": "add_face(person_name='Emma')"},
+{"user_request": "Record Matthew's face", "command": "add_face(person_name='Matthew')"}
+]</s>

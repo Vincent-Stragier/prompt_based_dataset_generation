@@ -1,0 +1,29 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'detect_object(object_name: string)' is a tool that Checks if the object is detected and returns True if detected, and False otherwise.
+You should use the following format for your answers: `{'user_request': '<the generated user request>', 'command': 'command_to_execute(parameters)'}`
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Is the door open?", "command": "detect_object('door')"},
+{"user_request": "Is there a person in the room?", "command": "detect_object('person')"},
+{"user_request": "Is the light on?", "command": "detect_object('light')"},
+{"user_request": "Is the stove turned on?", "command": "detect_object('stove')"},
+{"user_request": "Is the sink empty?", "command": "detect_object('sink')"},s
+{"user_request": "Is the trash can full?", "command": "detect_object('trash can')"},
+{"user_request": "Is the table clear?", "command": "detect_object('table')"},
+{"user_request": "Is the chair pushed in?", "command": "detect_object('chair')"},s
+{"user_request": "Is the book on the shelf?", "command": "detect_object('book')"},
+{"user_request": "Is the cup on the table?", "command": "detect_object('cup')"},
+{"user_request": "Is the TV on?", "command": "detect_object('TV')"},
+{"user_request": "Is the window open?", "command": "detect_object('window')"},
+{"user_request": "Is the bed made?", "command": "detect_object('bed')"},
+{"user_request": "Is the toilet seat down?", "command": "detect_object('toilet seat')"},
+{"user_request": "Is the fridge door closed?", "command": "detect_object('fridge door')"},
+{"user_request": "Is the oven turned off?", "command": "detect_object('oven')"},
+{"user_request": "Is the car in the driveway?", "command": "detect_object('car')"},
+{"user_request": "Is the mailbox empty?", "command": "detect_object('mailbox')"},
+{"user_request": "Is the dog in the yard?", "command": "detect_object('dog')"},
+{"user_request": "Is the cat on the couch?", "command": "detect_object('cat')"},
+{"user_request": "Is the plant watered?", "command": "detect_object('plant')"},
+{"user_request": "Is the garage door closed?", "command": "detect_object('garage door')"},
+]</s>

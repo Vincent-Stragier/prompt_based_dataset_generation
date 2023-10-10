@@ -1,0 +1,35 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'look_for_face(person_name: string)' is a tool that Allows looking for a face from the face recognition's database.
+One possible user request is: `Is Mary present?`
+the format of the generation should follow this:
+ {'user_request': 'Is Mary present?', 'command': "look_for_face('Mary')"}
+and you should generate other possible user requests.
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Is John in the room?", "command": "look_for_face('John')"},
+{"user_request": "Is Jane here?", "command": "look_for_face('Jane')"},
+{"user_request": "Is Tom present?", "command": "look_for_face('Tom')"},
+{"user_request": "Is Sarah around?", "command": "look_for_face('Sarah')"},
+{"user_request": "Is David in the building?", "command": "look_for_face('David')"},
+{"user_request": "Is Emily inside?", "command": "look_for_face('Emily')"},s"},
+{"user_request": "Is Michael with us?", "command": "look_for_face('Michael')"},
+{"user_request": "Is Rachel here?", "command": "look_for_face('Rachel')"},
+{"user_request": "Is Tim in the area?", "command": "look_for_face('Tim')"},
+{"user_request": "Is Helen around?", "command": "look_for_face('Helen')"},
+{"user_request": "Is Jack present?", "command": "look_for_face('Jack')"},
+{"user_request": "Is Lisa inside?", "command": "look_for_face('Lisa')"},
+{"user_request": "Is Mark in the room?", "command": "look_for_face('Mark')"},
+{"user_request": "Is Olivia here?", "command": "look_for_face('Olivia')"},
+{"user_request": "Is Paul present?", "command": "look_for_face('Paul')"},
+{"user_request": "Is Quinn around?", "command": "look_for_face('Quinn')"},
+{"user_request": "Is Rebecca in the building?", "command": "look_for_face('Rebecca')"},
+{"user_request": "Is Sam inside?", "command": "look_for_face('Sam')"},
+{"user_request": "Is Tina here?", "command": "look_for_face('Tina')"},
+{"user_request": "Is Ursula present?", "command": "look_for_face('Ursula')"},
+{"user_request": "Is Violet around?", "command": "look_for_face('Violet')"},
+{"user_request": "Is William in the room?", "command": "look_for_face('William')"},
+{"user_request": "Is Xavier inside?", "command": "look_for_face('Xavier')"},
+{"user_request": "Is Yvonne here?", "command": "look_for_face('Yvonne')"},
+{"user_request": "Is Zoe present?", "command": "look_for_face('Zoe')"}
+]</s>

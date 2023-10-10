@@ -1,0 +1,32 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'ocr(object_name: string)' is a tool that Reads text from objects.
+One possible user request is: `Read the text on the box.`
+the format of the generation should follow this:
+ {'user_request': 'Read the text on the box.', 'command': "ocr('box')"}
+and you should generate other possible user requests.
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Read the text on the sign.", "command": "ocr('sign')"},
+{"user_request": "Read the text on the label.", "command": "ocr('label')"},
+{"user_request": "Read the text on the menu.", "command": "ocr('menu')"},
+{"user_request": "Read the text on the document.", "command": "ocr('document')"},
+{"user_request": "Read the text on the receipt.", "command": "ocr('receipt')"},
+{"user_request": "Read the text on the book.", "command": "ocr('book')"},
+{"user_request": "Read the text on the magazine.", "command": "ocr('magazine')"},
+{"user_request": "Read the text on the newspaper.", "command": "ocr('newspaper')"},
+{"user_request": "Read the text on the flyer.", "command": "ocr('flyer')"},
+{"user_request": "Read the text on the business card.", "command": "ocr('business card')"},
+{"user_request": "Read the text on the poster.", "command": "ocr('poster')"},
+{"user_request": "Read the text on the billboard.", "command": "ocr('billboard')"},
+{"user_request": "Read the text on the street sign.", "command": "ocr('street sign')"},
+{"user_request": "Read the text on the traffic sign.", "command": "ocr('traffic sign')"},
+{"user_request": "Read the text on the warning sign.", "command": "ocr('warning sign')"},
+{"user_request": "Read the text on the package.", "command": "ocr('package')"},
+{"user_request": "Read the text on the envelope.", "command": "ocr('envelope')"},
+{"user_request": "Read the text on the brochure.", "command": "ocr('brochure')"},
+{"user_request": "Read the text on the ticket.", "command": "ocr('ticket')"},
+{"user_request": "Read the text on the board.", "command": "ocr('board')"},
+{"user_request": "Read the text on the display.", "command": "ocr('display')"},
+{"user_request": "Read the text on the screen.", "command": "ocr('screen')"},
+]</s>

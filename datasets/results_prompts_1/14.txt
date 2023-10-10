@@ -1,0 +1,31 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'ocr_objects()' is a tool that Returns a list of objects with text on them.
+One possible user request is: `Is there any text in the room?`
+the format of the generation should follow this:
+ {'user_request': 'Is there any text in the room?', 'command': 'ocr_objects()'}
+and you should generate other possible user requests.
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Can you detect any text in the room?", "command": "ocr_objects()"},
+{"user_request": "Are there any objects with text on them?", "command": "ocr_objects()"},
+{"user_request": "Can you find any text in the environment?", "command": "ocr_objects()"},
+{"user_request": "Is there any written information present?", "command": "ocr_objects()"},
+{"user_request": "Can you identify any objects with writing?", "command": "ocr_objects()"},s
+{"user_request": "Are there any items with text to read?", "command": "ocr_objects()"},
+{"user_request": "Can you locate any text in the area?", "command": "ocr_objects()"},
+{"user_request": "Are there any texts or signs around?", "command": "ocr_objects()"},
+{"user_request": "Can you detect any written content?", "command": "ocr_objects()"},
+{"user_request": "Is there any text that can be read?", "command": "ocr_objects()"},
+{"user_request": "Can you find any objects with text?", "command": "ocr_objects()"},
+{"user_request": "Are there any texts or labels to read?", "command": "ocr_objects()"},
+{"user_request": "Can you identify any objects with writing?", "command": "ocr_objects()"},
+{"user_request": "Are there any items with text on them?", "command": "ocr_objects()"},
+{"user_request": "Can you locate any text in the environment?", "command": "ocr_objects()"},
+{"user_request": "Are there any texts or signs present?", "command": "ocr_objects()"},
+{"user_request": "Can you detect any written information?", "command": "ocr_objects()"},
+{"user_request": "Is there any text that can be read aloud?", "command": "ocr_objects()"},
+{"user_request": "Can you find any objects with text on them?", "command": "ocr_objects()"},
+{"user_request": "Are there any texts or labels to be read?", "command": "ocr_objects()"},
+{"user_request": "Can you identify any objects with writing on them?", "command": "ocr_objects()"}
+]</s>

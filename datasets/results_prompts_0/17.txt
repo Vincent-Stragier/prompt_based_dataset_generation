@@ -1,0 +1,29 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'environment_question()' is a tool that Answers questions about the environment.
+You should use the following format for your answers: `{'user_request': '<the generated user request>', 'command': 'command_to_execute(parameters)'}`
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "What is the current temperature outside?", "command": "get_temperature()"},
+{"user_request": "What is the weather forecast for today?", "command": "get_weather_forecast(today)"},
+{"user_request": "What is the air quality in my area?", "command": "get_air_quality()"},
+{"user_request": "Is it raining right now?", "command": "get_rain_status()"},
+{"user_request": "What is the pollen count today?", "command": "get_pollen_count(today)"},
+{"user_request": "What is the UV index for today?", "command": "get_uv_index(today)"},s
+{"user_request": "What is the sunrise time for today?", "command": "get_sunrise_time(today)"},
+{"user_request": "What is the sunset time for today?", "command": "get_sunset_time(today)"},
+{"user_request": "What is the current humidity level?", "command": "get_humidity_level()"},
+{"user_request": "What is the wind speed right now?", "command": "get_wind_speed()"},
+{"user_request": "What is the wind direction right now?", "command": "get_wind_direction()"},
+{"user_request": "What is the barometric pressure right now?", "command": "get_barometric_pressure()"},
+{"user_request": "What is the visibility distance right now?", "command": "get_visibility_distance()"},
+{"user_request": "What is the dew point right now?", "command": "get_dew_point()"},
+{"user_request": "What is the heat index right now?", "command": "get_heat_index()"},
+{"user_request": "What is the current cloud cover?", "command": "get_cloud_cover()"},
+{"user_request": "What is the current moon phase?", "command": "get_moon_phase()"},
+{"user_request": "What is the current water temperature?", "command": "get_water_temperature()"},
+{"user_request": "What is the current soil temperature?", "command": "get_soil_temperature()"},
+{"user_request": "What is the current soil moisture?", "command": "get_soil_moisture()"},
+{"user_request": "What is the current leaf wetness?", "command": "get_leaf_wetness()"},
+{"user_request": "What is the current evapotranspiration?", "command": "get_evapotranspiration()"}
+]</s>

@@ -1,0 +1,31 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'environment_question()' is a tool that Answers questions about the environment.
+One possible user request is: `Am I in a garden?`
+the format of the generation should follow this:
+ {'user_request': 'Am I in a garden?', 'command': "environment_question('Am I in a garden?')"}
+and you should generate other possible user requests.
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "What is the weather like today?", "command": "environment_question('What is the weather like today?')"},
+{"user_request": "Is it sunny outside?", "command": "environment_question('Is it sunny outside?')"},
+{"user_request": "Is it raining?", "command": "environment_question('Is it raining?')"},
+{"user_request": "What is the temperature?", "command": "environment_question('What is the temperature?')"},
+{"user_request": "Is it windy?", "command": "environment_question('Is it windy?')"},s
+{"user_request": "Is it cloudy?", "command": "environment_question('Is it cloudy?')"},
+{"user_request": "Is it snowing?", "command": "environment_question('Is it snowing?')"},
+{"user_request": "Is it a clear day?", "command": "environment_question('Is it a clear day?')"},
+{"user_request": "Is it foggy?", "command": "environment_question('Is it foggy?')"},
+{"user_request": "Is it humid?", "command": "environment_question('Is it humid?')"},
+{"user_request": "Is it hot or cold?", "command": "environment_question('Is it hot or cold?')"},
+{"user_request": "Is it a good day for a walk?", "command": "environment_question('Is it a good day for a walk?')"},
+{"user_request": "Is it a good day for a picnic?", "command": "environment_question('Is it a good day for a picnic?')"},
+{"user_request": "Is it a good day for a swim?", "command": "environment_question('Is it a good day for a swim?')"},
+{"user_request": "Is it a good day for a bike ride?", "command": "environment_question('Is it a good day for a bike ride?')"},
+{"user_request": "Is it a good day for gardening?", "command": "environment_question('Is it a good day for gardening?')"},
+{"user_request": "Is it a good day for a hike?", "command": "environment_question('Is it a good day for a hike?')"},
+{"user_request": "Is it a good day for a run?", "command": "environment_question('Is it a good day for a run?')"},
+{"user_request": "Is it a good day for a walk with my dog?", "command": "environment_question('Is it a good day for a walk with my dog?')"},
+{"user_request": "Is it a good day for a barbecue?", "command": "environment_question('Is it a good day for a barbecue?')"},
+{"user_request": "Is it a good day for a beach trip?", "command": "environment_question('Is it a good day for a beach trip?')"}
+]</s>

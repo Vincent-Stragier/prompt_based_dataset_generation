@@ -1,0 +1,32 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'colors(object_name: string)' is a tool that Recognizes the dominant color of objects in the environment.
+One possible user request is: `What are the colors of the chair?`
+the format of the generation should follow this:
+ {'user_request': 'What are the colors of the chair?', 'command': "colors('chair')"}
+and you should generate other possible user requests.
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "What are the colors of the chair?", "command": "colors('chair')"},
+{"user_request": "What is the dominant color of the chair?", "command": "colors('chair')"},
+{"user_request": "Tell me the colors of the chair.", "command": "colors('chair')"},
+{"user_request": "Describe the colors of the chair.", "command": "colors('chair')"},s
+{"user_request": "What colors can you see on the chair?", "command": "colors('chair')"},
+{"user_request": "What is the main color of the chair?", "command": "colors('chair')"},
+{"user_request": "Can you identify the colors of the chair?", "command": "colors('chair')"},
+{"user_request": "What colors does the chair have?", "command": "colors('chair')"},
+{"user_request": "Tell me about the colors of the chair.", "command": "colors('chair')"},
+{"user_request": "What colors can you detect on the chair?", "command": "colors('chair')"},
+{"user_request": "What are the primary colors of the chair?", "command": "colors('chair')"},
+{"user_request": "Can you tell me the colors of the chair?", "command": "colors('chair')"},
+{"user_request": "What colors make up the chair?", "command": "colors('chair')"},
+{"user_request": "What colors can you find on the chair?", "command": "colors('chair')"},
+{"user_request": "What colors does the chair consist of?", "command": "colors('chair')"},
+{"user_request": "What colors can you see in the chair?", "command": "colors('chair')"},
+{"user_request": "What colors does the chair contain?", "command": "colors('chair')"},
+{"user_request": "Can you describe the colors of the chair?", "command": "colors('chair')"},
+{"user_request": "What colors can you identify on the chair?", "command": "colors('chair')"},
+{"user_request": "What colors are present in the chair?", "command": "colors('chair')"},
+{"user_request": "What colors can you recognize on the chair?", "command": "colors('chair')"},
+{"user_request": "What colors can you perceive on the chair?", "command": "colors('chair')"}
+]</s>

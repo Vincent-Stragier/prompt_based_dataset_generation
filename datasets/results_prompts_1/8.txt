@@ -1,0 +1,32 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'age_estimation(person_name: string)' is a tool that Allows estimating the age from a face present in the face recognition's database.
+One possible user request is: `What is Bob's age?`
+the format of the generation should follow this:
+ {'user_request': "What is Bob's age?", 'command': "age_estimation('Bob')"}
+and you should generate other possible user requests.
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "What is the age of Bob?", "command": "age_estimation('Bob')"},
+{"user_request": "How old is Bob?", "command": "age_estimation('Bob')"},
+{"user_request": "Estimate Bob's age", "command": "age_estimation('Bob')"},
+{"user_request": "Tell me Bob's age", "command": "age_estimation('Bob')"},
+{"user_request": "Determine Bob's age", "command": "age_estimation('Bob')"},
+{"user_request": "Guess Bob's age", "command": "age_estimation('Bob')"},
+{"user_request": "What age is Bob?", "command": "age_estimation('Bob')"},
+{"user_request": "Can you find Bob's age?", "command": "age_estimation('Bob')"},
+{"user_request": "Get Bob's age", "command": "age_estimation('Bob')"},
+{"user_request": "Tell me the age of Bob", "command": "age_estimation('Bob')"},
+{"user_request": "What age is Bob?", "command": "age_estimation('Bob')"},
+{"user_request": "Can you tell me Bob's age?", "command": "age_estimation('Bob')"},
+{"user_request": "Please find Bob's age", "command": "age_estimation('Bob')"},
+{"user_request": "Can you estimate Bob's age?", "command": "age_estimation('Bob')"},
+{"user_request": "Can you determine Bob's age?", "command": "age_estimation('Bob')"},
+{"user_request": "Can you guess Bob's age?", "command": "age_estimation('Bob')"},
+{"user_request": "Can you tell me Bob's age?", "command": "age_estimation('Bob')"},
+{"user_request": "Can you find out Bob's age?", "command": "age_estimation('Bob')"},
+{"user_request": "Can you retrieve Bob's age?", "command": "age_estimation('Bob')"},
+{"user_request": "Can you get Bob's age?", "command": "age_estimation('Bob')"},
+{"user_request": "Can you provide Bob's age?", "command": "age_estimation('Bob')"},
+{"user_request": "Can you give me Bob's age?", "command": "age_estimation('Bob')"},
+]</s>

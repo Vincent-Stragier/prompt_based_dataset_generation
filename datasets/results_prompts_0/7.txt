@@ -1,0 +1,30 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'enumerate_individuals()' is a tool that Allows adding a face to the face recognition's database.
+You should use the following format for your answers: `{'user_request': '<the generated user request>', 'command': 'command_to_execute(parameters)'}`
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Add a new face to the database", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Store the face of the person I just showed", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Register the face in the system", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Save the face for future recognition", "command": "enumerate_individuals('add_face', face_image_path)"},s
+{"user_request": "Remember the face of this individual", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Teach the system to recognize this face", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Let the system know this person's face", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Introduce a new face to the system", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Help the system to identify this face", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Allow the system to learn this face", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Give the system a new face to recognize", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Teach the system about this person's face", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Add a face to the system's memory", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Help the system to memorize this face", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Let the system discover this face", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Assist the system in recognizing this face", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Allow the system to become familiar with this face", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Give the system a face to remember", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Help the system to get to know this face", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Teach the system to identify this person's face", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Add a face to the system's database", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Instruct the system to recognize this face", "command": "enumerate_individuals('add_face', face_image_path)"},
+{"user_request": "Introduce this face to the system", "command": "enumerate_individuals('add_face', face_image_path)"}
+]</s>

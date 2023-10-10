@@ -1,0 +1,33 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'navigation(destination: string)' is a tool that Enables navigation to a specified destination.
+One possible user request is: `Lead me to the nearest shop.`
+the format of the generation should follow this:
+ {'user_request': 'Lead me to the nearest shop.', 'command': "navigation('nearest shop')"}
+and you should generate other possible user requests.
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Take me to the nearest grocery store.", "command": "navigation('nearest grocery store')"},
+{"user_request": "Guide me to the closest pharmacy.", "command": "navigation('closest pharmacy')"},
+{"user_request": "Show me the way to the nearest bus stop.", "command": "navigation('nearest bus stop')"},
+{"user_request": "Help me find the closest ATM.", "command": "navigation('closest ATM')"},
+{"user_request": "Direct me to the nearest coffee shop.", "command": "navigation('nearest coffee shop')"},s
+{"user_request": "Lead me to the closest park.", "command": "navigation('closest park')"},
+{"user_request": "Take me to the nearest library.", "command": "navigation('nearest library')"},
+{"user_request": "Guide me to the closest post office.", "command": "navigation('closest post office')"},
+{"user_request": "Show me the way to the nearest restaurant.", "command": "navigation('nearest restaurant')"},
+{"user_request": "Help me find the closest gas station.", "command": "navigation('closest gas station')"},
+{"user_request": "Direct me to the nearest hospital.", "command": "navigation('nearest hospital')"},
+{"user_request": "Lead me to the closest bank.", "command": "navigation('closest bank')"},
+{"user_request": "Take me to the nearest movie theater.", "command": "navigation('nearest movie theater')"},
+{"user_request": "Guide me to the closest shopping mall.", "command": "navigation('closest shopping mall')"},
+{"user_request": "Show me the way to the nearest museum.", "command": "navigation('nearest museum')"},
+{"user_request": "Help me find the closest gym.", "command": "navigation('closest gym')"},
+{"user_request": "Direct me to the nearest hotel.", "command": "navigation('nearest hotel')"},
+{"user_request": "Lead me to the closest theater.", "command": "navigation('closest theater')"},
+{"user_request": "Take me to the nearest art gallery.", "command": "navigation('nearest art gallery')"},
+{"user_request": "Guide me to the closest community center.", "command": "navigation('closest community center')"},
+{"user_request": "Show me the way to the nearest park.", "command": "navigation('nearest park')"},
+{"user_request": "Help me find the closest pet store.", "command": "navigation('closest pet store')"},
+{"user_request": "Direct me to the nearest hair salon.", "command": "navigation('nearest hair salon')"}
+]</s>

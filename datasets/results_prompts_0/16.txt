@@ -1,0 +1,29 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'environment_description()' is a tool that Describes the environment.
+You should use the following format for your answers: `{'user_request': '<the generated user request>', 'command': 'command_to_execute(parameters)'}`
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Tell me about the environment.", "command": "environment_description()"},
+{"user_request": "Describe the room.", "command": "environment_description(room)"},
+{"user_request": "Tell me about the objects in the room.", "command": "environment_description(objects)"},
+{"user_request": "Describe the people in the room.", "command": "environment_description(people)"},s
+{"user_request": "Tell me about the colors in the room.", "command": "environment_description(colors)"},
+{"user_request": "Describe the lighting in the room.", "command": "environment_description(lighting)"},
+{"user_request": "Tell me about the temperature in the room.", "command": "environment_description(temperature)"},
+{"user_request": "Describe the sounds in the room.", "command": "environment_description(sounds)"},
+{"user_request": "Tell me about the smells in the room.", "command": "environment_description(smells)"},
+{"user_request": "Describe the textures in the room.", "command": "environment_description(textures)"},
+{"user_request": "Tell me about the furniture in the room.", "command": "environment_description(furniture)"},
+{"user_request": "Describe the layout of the room.", "command": "environment_description(layout)"},
+{"user_request": "Tell me about the decorations in the room.", "command": "environment_description(decorations)"},
+{"user_request": "Describe the plants in the room.", "command": "environment_description(plants)"},
+{"user_request": "Tell me about the windows in the room.", "command": "environment_description(windows)"},
+{"user_request": "Describe the doors in the room.", "command": "environment_description(doors)"},
+{"user_request": "Tell me about the walls in the room.", "command": "environment_description(walls)"},
+{"user_request": "Describe the floor in the room.", "command": "environment_description(floor)"},
+{"user_request": "Tell me about the ceiling in the room.", "command": "environment_description(ceiling)"},
+{"user_request": "Describe the light sources in the room.", "command": "environment_description(light_sources)"},
+{"user_request": "Tell me about the objects on the walls.", "command": "environment_description(wall_objects)"},
+{"user_request": "Describe the objects on the floor.", "command": "environment_description(floor_objects)"}
+]</s>

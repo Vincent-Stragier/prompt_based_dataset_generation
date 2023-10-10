@@ -1,0 +1,29 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'look_for_face(person_name: string)' is a tool that Allows looking for a face from the face recognition's database.
+You should use the following format for your answers: `{'user_request': '<the generated user request>', 'command': 'command_to_execute(parameters)'}`
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Find the face of John Doe", "command": "look_for_face(person_name='John Doe')"},
+{"user_request": "Locate the face of Jane Smith", "command": "look_for_face(person_name='Jane Smith')"},
+{"user_request": "Search for the face of Tom Jones", "command": "look_for_face(person_name='Tom Jones')"},
+{"user_request": "Identify the face of Sarah Johnson", "command": "look_for_face(person_name='Sarah Johnson')"},
+{"user_request": "Retrieve the face of Michael Thompson", "command": "look_for_face(person_name='Michael Thompson')"},
+{"user_request": "Discover the face of Emily Wilson", "command": "look_for_face(person_name='Emily Wilson')"},
+{"user_request": "Recognize the face of David Miller", "command": "look_for_face(person_name='David Miller')"},
+{"user_request": "Detect the face of Rachel Taylor", "command": "look_for_face(person_name='Rachel Taylor')"},
+{"user_request": "Seek the face of Robert Brown", "command": "look_for_face(person_name='Robert Brown')"},
+{"user_request": "Uncover the face of Laura Green", "command": "look_for_face(person_name='Laura Green')"},
+{"user_request": "Examine the face of Paul Adams", "command": "look_for_face(person_name='Paul Adams')"},
+{"user_request": "Explore the face of Elizabeth Davis", "command": "look_for_face(person_name='Elizabeth Davis')"},
+{"user_request": "Analyze the face of James Wilson", "command": "look_for_face(person_name='James Wilson')"},
+{"user_request": "Investigate the face of Jennifer Lee", "command": "look_for_face(person_name='Jennifer Lee')"},
+{"user_request": "Inspect the face of Timothy Johnson", "command": "look_for_face(person_name='Timothy Johnson')"},
+{"user_request": "Scrutinize the face of Rebecca Thompson", "command": "look_for_face(person_name='Rebecca Thompson')"},
+{"user_request": "Survey the face of Andrew Miller", "command": "look_for_face(person_name='Andrew Miller')"},
+{"user_request": "Study the face of Mary Taylor", "command": "look_for_face(person_name='Mary Taylor')"},
+{"user_request": "Observe the face of Joseph Brown", "command": "look_for_face(person_name='Joseph Brown')"},
+{"user_request": "Peruse the face of Lisa Green", "command": "look_for_face(person_name='Lisa Green')"},
+{"user_request": "Examine the face of Anthony Adams", "command": "look_for_face(person_name='Anthony Adams')"},
+{"user_request": "Explore the face of Margaret Davis", "command": "look_for_face(person_name='Margaret Davis')"}
+]</s>

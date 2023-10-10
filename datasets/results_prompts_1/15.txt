@@ -1,0 +1,31 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'money()' is a tool that Recognizes the value and currency of coins and banknotes. Returns a list of detected elements and the total amount.
+One possible user request is: `How much money is there?`
+the format of the generation should follow this:
+ {'user_request': 'How much money is there?', 'command': 'money()'}
+and you should generate other possible user requests.
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "How much money is there?", "command": "money()"},
+{"user_request": "What is the total amount of money?", "command": "money()"},
+{"user_request": "Tell me the value of the currency", "command": "money()"},
+{"user_request": "Identify the currency for me", "command": "money()"},
+{"user_request": "How many coins and banknotes do I have?", "command": "money()"},
+{"user_request": "What is the currency of my money?", "command": "money()"},
+{"user_request": "Determine the value of my money", "command": "money()"},
+{"user_request": "Count the money for me", "command": "money()"},
+{"user_request": "Tell me the denomination of my coins and banknotes", "command": "money()"},
+{"user_request": "How much is my money worth?", "command": "money()"},
+{"user_request": "Analyze the currency for me", "command": "money()"},
+{"user_request": "Inform me of the currency value", "command": "money()"},
+{"user_request": "Recognize the currency for me", "command": "money()"},
+{"user_request": "Calculate the total amount of my money", "command": "money()"},
+{"user_request": "Identify the currency value", "command": "money()"},
+{"user_request": "Determine the total value of my money", "command": "money()"},
+{"user_request": "Analyze the currency value for me", "command": "money()"},
+{"user_request": "Tell me the total value of my money", "command": "money()"},
+{"user_request": "Count and identify the currency for me", "command": "money()"},
+{"user_request": "Inform me of the total currency value", "command": "money()"},
+{"user_request": "Recognize and count my money", "command": "money()"}
+]</s>

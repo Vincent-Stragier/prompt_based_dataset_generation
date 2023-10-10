@@ -1,0 +1,29 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'object_color(object_name: string)' is a tool that Identify the dominant color of objects
+You should use the following format for your answers: `{'user_request': '<the generated user request>', 'command': 'command_to_execute(parameters)'}`
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "What is the color of my shirt?", "command": "object_color(object_name: 'shirt')"},
+{"user_request": "Can you tell me the color of my coffee mug?", "command": "object_color(object_name: 'coffee mug')"},
+{"user_request": "What color is my wallet?", "command": "object_color(object_name: 'wallet')"},
+{"user_request": "What is the dominant color of my socks?", "command": "object_color(object_name: 'socks')"},
+{"user_request": "Can you identify the color of my pants?", "command": "object_color(object_name: 'pants')"},
+{"user_request": "What color is my backpack?", "command": "object_color(object_name: 'backpack')"},
+{"user_request": "Can you tell me the color of my shoes?", "command": "object_color(object_name: 'shoes')"},
+{"user_request": "What is the color of my hair?", "command": "object_color(object_name: 'hair')"},
+{"user_request": "Can you identify the color of my eyes?", "command": "object_color(object_name: 'eyes')"},
+{"user_request": "What color is my book cover?", "command": "object_color(object_name: 'book cover')"},
+{"user_request": "Can you tell me the color of my phone case?", "command": "object_color(object_name: 'phone case')"},
+{"user_request": "What is the dominant color of my scarf?", "command": "object_color(object_name: 'scarf')"},
+{"user_request": "Can you identify the color of my watch?", "command": "object_color(object_name: 'watch')"},
+{"user_request": "What color is my umbrella?", "command": "object_color(object_name: 'umbrella')"},
+{"user_request": "Can you tell me the color of my glasses?", "command": "object_color(object_name: 'glasses')"},
+{"user_request": "What is the color of my hat?", "command": "object_color(object_name: 'hat')"},
+{"user_request": "Can you identify the color of my pen?", "command": "object_color(object_name: 'pen')"},
+{"user_request": "What color is my water bottle?", "command": "object_color(object_name: 'water bottle')"},
+{"user_request": "Can you tell me the color of my notebook?", "command": "object_color(object_name: 'notebook')"},
+{"user_request": "What is the dominant color of my wallet?", "command": "object_color(object_name: 'wallet')"},
+{"user_request": "Can you identify the color of my belt?", "command": "object_color(object_name: 'belt')"},
+{"user_request": "What color is my tie?", "command": "object_color(object_name: 'tie')"}
+]</s>

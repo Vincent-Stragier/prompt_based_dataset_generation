@@ -1,0 +1,31 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'position()' is a tool that Allows the user to know their current location.
+One possible user request is: `Where am I?`
+the format of the generation should follow this:
+ {'user_request': 'Where am I?', 'command': 'position()'}
+and you should generate other possible user requests.
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "What is my current location?", "command": "position()"},
+{"user_request": "Tell me my position", "command": "position()"},
+{"user_request": "Where am I right now?", "command": "position()"},
+{"user_request": "What is my current position?", "command": "position()"},
+{"user_request": "Give me my location", "command": "position()"},
+{"user_request": "Tell me where I am", "command": "position()"},
+{"user_request": "What is my location?", "command": "position()"},
+{"user_request": "What is my current address?", "command": "position()"},
+{"user_request": "Give me my address", "command": "position()"},
+{"user_request": "Tell me my address", "command": "position()"},
+{"user_request": "What is my street name?", "command": "position()"},
+{"user_request": "What is my city?", "command": "position()"},
+{"user_request": "What is my state?", "command": "position()"},
+{"user_request": "What is my country?", "command": "position()"},
+{"user_request": "What is my zip code?", "command": "position()"},
+{"user_request": "What is my GPS location?", "command": "position()"},
+{"user_request": "Give me my GPS coordinates", "command": "position()"},
+{"user_request": "Tell me my GPS coordinates", "command": "position()"},
+{"user_request": "What is my latitude and longitude?", "command": "position()"},
+{"user_request": "Give me my latitude and longitude", "command": "position()"},
+{"user_request": "Tell me my latitude and longitude", "command": "position()"}
+]</s>

@@ -1,0 +1,32 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'environment_description()' is a tool that Describes the environment.
+One possible user request is: `Describe the environment.`
+the format of the generation should follow this:
+ {'user_request': 'Describe the environment.', 'command': 'environment_description()'}
+and you should generate other possible user requests.
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Tell me about the environment.", "command": "environment_description()"},
+{"user_request": "Describe the surroundings.", "command": "environment_description()"},
+{"user_request": "What does the area look like?", "command": "environment_description()"},
+{"user_request": "Give me a description of the scene.", "command": "environment_description()"},
+{"user_request": "Tell me about the setting.", "command": "environment_description()"},s
+{"user_request": "Provide an overview of the location.", "command": "environment_description()"},
+{"user_request": "Describe the landscape.", "command": "environment_description()"},
+{"user_request": "Tell me about the place.", "command": "environment_description()"},
+{"user_request": "Give me a brief of the location.", "command": "environment_description()"},
+{"user_request": "What can you see around here?", "command": "environment_description()"},
+{"user_request": "Describe the area for me.", "command": "environment_description()"},
+{"user_request": "Tell me about the scene around me.", "command": "environment_description()"},
+{"user_request": "Give me a summary of the environment.", "command": "environment_description()"},
+{"user_request": "Describe the location to me.", "command": "environment_description()"},
+{"user_request": "Tell me about the surroundings.", "command": "environment_description()"},
+{"user_request": "Give me a description of the place.", "command": "environment_description()"},
+{"user_request": "Tell me about the area.", "command": "environment_description()"},
+{"user_request": "Describe the environment for me.", "command": "environment_description()"},
+{"user_request": "Give me a brief description of the location.", "command": "environment_description()"},
+{"user_request": "Tell me about the scene around us.", "command": "environment_description()"},
+{"user_request": "Describe the area around me.", "command": "environment_description()"},
+{"user_request": "Give me a summary of the surroundings.", "command": "environment_description()"}
+]</s>

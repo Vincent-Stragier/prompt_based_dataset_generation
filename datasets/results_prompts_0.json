@@ -1,0 +1,2106 @@
+[
+  {
+    "tool_name": "detect_object",
+    "description": "Checks if the object is detected and returns True if detected, and False otherwise.",
+    "parameters": {
+      "object_name": [
+        "string"
+      ]
+    },
+    "use_cases": [
+      {
+        "user_request": "Is there a chair in the room?",
+        "command": "detect_object('chair')",
+        "return_description": "Returns True if the object is visible, and False otherwise."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "Is there a chair in the room?",
+        "command": "detect_object('chair')"
+      },
+      {
+        "user_request": "Is there a table in the room?",
+        "command": "detect_object('table')"
+      },
+      {
+        "user_request": "Is there a couch in the room?",
+        "command": "detect_object('couch')"
+      },
+      {
+        "user_request": "Is there a door in the room?",
+        "command": "detect_object('door')"
+      },
+      {
+        "user_request": "Is there a window in the room?",
+        "command": "detect_object('window')"
+      },
+      {
+        "user_request": "Is there a bookshelf in the room?",
+        "command": "detect_object('bookshelf')"
+      },
+      {
+        "user_request": "Is there a desk in the room?",
+        "command": "detect_object('desk')"
+      },
+      {
+        "user_request": "Is there a staircase in the room?",
+        "command": "detect_object('staircase')"
+      },
+      {
+        "user_request": "Is there a bed in the room?",
+        "command": "detect_object('bed')"
+      },
+      {
+        "user_request": "Is there a sofa in the room?",
+        "command": "detect_object('sofa')"
+      },
+      {
+        "user_request": "Is there a cabinet in the room?",
+        "command": "detect_object('cabinet')"
+      },
+      {
+        "user_request": "Is there a mirror in the room?",
+        "command": "detect_object('mirror')"
+      },
+      {
+        "user_request": "Is there a sink in the room?",
+        "command": "detect_object('sink')"
+      },
+      {
+        "user_request": "Is there a toilet in the room?",
+        "command": "detect_object('toilet')"
+      },
+      {
+        "user_request": "Is there a shower in the room?",
+        "command": "detect_object('shower')"
+      },
+      {
+        "user_request": "Is there a bathtub in the room?",
+        "command": "detect_object('bathtub')"
+      },
+      {
+        "user_request": "Is there a refrigerator in the room?",
+        "command": "detect_object('refrigerator')"
+      },
+      {
+        "user_request": "Is there a freezer in the room?",
+        "command": "detect_object('freezer')"
+      },
+      {
+        "user_request": "Is there a washing machine in the room?",
+        "command": "detect_object('washing machine')"
+      },
+      {
+        "user_request": "Is there a dryer in the room?",
+        "command": "detect_object('dryer')"
+      },
+      {
+        "user_request": "Is there a dishwasher in the room?",
+        "command": "detect_object('dishwasher')"
+      },
+      {
+        "user_request": "Is there a trash can in the room?",
+        "command": "detect_object('trash can')"
+      },
+      {
+        "user_request": "Is there a coffee maker in the room?",
+        "command": "detect_object('coffee maker')"
+      },
+      {
+        "user_request": "Is there a microwave in the room?",
+        "command": "detect_object('microwave')"
+      },
+      {
+        "user_request": "Is there a toaster in the room?",
+        "command": "detect_object('toaster')"
+      },
+      {
+        "user_request": "Is there a stove in the room?",
+        "command": "detect_object('stove')"
+      },
+      {
+        "user_request": "Is there a oven in the room?",
+        "command": "detect_object('oven')"
+      }
+    ]
+  },
+  {
+    "tool_name": "enumerate_objects",
+    "description": "Detects objects in the environment and returns a list of recognized objects.",
+    "parameters": {},
+    "use_cases": [
+      {
+        "user_request": "What objects are in the room?",
+        "command": "enumerate_objects()",
+        "return_description": "Returns a list of visible objects recognized by the assistant."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "What objects are in the room?",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "List the objects in the room",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "Tell me what objects are around me",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "Describe the objects in the environment",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "Identify the objects in the area",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "Inform me about the objects nearby",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "What items are present in the room?",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "Tell me about the objects in my surroundings",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "What things can you detect in the room?",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "List the items in the area",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "Inform me about the objects in the vicinity",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "What objects can you see in the room?",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "Tell me about the objects around me",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "Describe the items in the room",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "Identify the objects around me",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "Inform me about the objects in the room",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "What objects can you find in the room?",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "Tell me about the items in the area",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "Describe the objects in my surroundings",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "Identify the items in the room",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "Inform me about the objects nearby",
+        "command": "enumerate_objects()"
+      },
+      {
+        "user_request": "What things are present in the room?",
+        "command": "enumerate_objects()"
+      }
+    ]
+  },
+  {
+    "tool_name": "navigation",
+    "description": "Enables navigation to a specified destination.",
+    "parameters": {
+      "destination": [
+        "string"
+      ]
+    },
+    "use_cases": [
+      {
+        "user_request": "Lead me to the nearest shop.",
+        "command": "navigation('nearest shop')",
+        "return_description": "Proposes opening a navigation application to the chosen destination."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "Take me to the nearest grocery store.",
+        "command": "navigation('nearest grocery store')"
+      },
+      {
+        "user_request": "Guide me to the closest pharmacy.",
+        "command": "navigation('closest pharmacy')"
+      },
+      {
+        "user_request": "Show me the way to the nearest bus stop.",
+        "command": "navigation('nearest bus stop')"
+      },
+      {
+        "user_request": "Help me find the closest ATM.",
+        "command": "navigation('closest ATM')"
+      },
+      {
+        "user_request": "Direct me to the nearest coffee shop.",
+        "command": "navigation('nearest coffee shop')"
+      },
+      {
+        "user_request": "Lead me to the closest park.",
+        "command": "navigation('closest park')"
+      },
+      {
+        "user_request": "Take me to the nearest library.",
+        "command": "navigation('nearest library')"
+      },
+      {
+        "user_request": "Guide me to the closest post office.",
+        "command": "navigation('closest post office')"
+      },
+      {
+        "user_request": "Show me the way to the nearest restaurant.",
+        "command": "navigation('nearest restaurant')"
+      },
+      {
+        "user_request": "Help me find the closest gas station.",
+        "command": "navigation('closest gas station')"
+      },
+      {
+        "user_request": "Direct me to the nearest hospital.",
+        "command": "navigation('nearest hospital')"
+      },
+      {
+        "user_request": "Lead me to the closest bank.",
+        "command": "navigation('closest bank')"
+      },
+      {
+        "user_request": "Take me to the nearest movie theater.",
+        "command": "navigation('nearest movie theater')"
+      },
+      {
+        "user_request": "Guide me to the closest shopping mall.",
+        "command": "navigation('closest shopping mall')"
+      },
+      {
+        "user_request": "Show me the way to the nearest museum.",
+        "command": "navigation('nearest museum')"
+      },
+      {
+        "user_request": "Help me find the closest gym.",
+        "command": "navigation('closest gym')"
+      },
+      {
+        "user_request": "Direct me to the nearest hotel.",
+        "command": "navigation('nearest hotel')"
+      },
+      {
+        "user_request": "Lead me to the closest theater.",
+        "command": "navigation('closest theater')"
+      },
+      {
+        "user_request": "Take me to the nearest art gallery.",
+        "command": "navigation('nearest art gallery')"
+      },
+      {
+        "user_request": "Guide me to the closest community center.",
+        "command": "navigation('closest community center')"
+      },
+      {
+        "user_request": "Show me the way to the nearest park.",
+        "command": "navigation('nearest park')"
+      },
+      {
+        "user_request": "Help me find the closest pet store.",
+        "command": "navigation('closest pet store')"
+      },
+      {
+        "user_request": "Direct me to the nearest hair salon.",
+        "command": "navigation('nearest hair salon')"
+      }
+    ]
+  },
+  {
+    "tool_name": "position",
+    "description": "Allows the user to know their current location.",
+    "parameters": {},
+    "use_cases": [
+      {
+        "user_request": "Where am I?",
+        "command": "position()",
+        "return_description": "Returns the current location of the user."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "What is my current location?",
+        "command": "position()"
+      },
+      {
+        "user_request": "Tell me my position",
+        "command": "position()"
+      },
+      {
+        "user_request": "Where am I right now?",
+        "command": "position()"
+      },
+      {
+        "user_request": "What is my current position?",
+        "command": "position()"
+      },
+      {
+        "user_request": "Give me my location",
+        "command": "position()"
+      },
+      {
+        "user_request": "Tell me where I am",
+        "command": "position()"
+      },
+      {
+        "user_request": "What is my location?",
+        "command": "position()"
+      },
+      {
+        "user_request": "What is my current address?",
+        "command": "position()"
+      },
+      {
+        "user_request": "Give me my address",
+        "command": "position()"
+      },
+      {
+        "user_request": "Tell me my address",
+        "command": "position()"
+      },
+      {
+        "user_request": "What is my street name?",
+        "command": "position()"
+      },
+      {
+        "user_request": "What is my city?",
+        "command": "position()"
+      },
+      {
+        "user_request": "What is my state?",
+        "command": "position()"
+      },
+      {
+        "user_request": "What is my country?",
+        "command": "position()"
+      },
+      {
+        "user_request": "What is my zip code?",
+        "command": "position()"
+      },
+      {
+        "user_request": "What is my GPS location?",
+        "command": "position()"
+      },
+      {
+        "user_request": "Give me my GPS coordinates",
+        "command": "position()"
+      },
+      {
+        "user_request": "Tell me my GPS coordinates",
+        "command": "position()"
+      },
+      {
+        "user_request": "What is my latitude and longitude?",
+        "command": "position()"
+      },
+      {
+        "user_request": "Give me my latitude and longitude",
+        "command": "position()"
+      },
+      {
+        "user_request": "Tell me my latitude and longitude",
+        "command": "position()"
+      }
+    ]
+  },
+  {
+    "tool_name": "add_face",
+    "description": "Allows adding a face to the face recognition's database.",
+    "parameters": {
+      "person_name": [
+        "string"
+      ]
+    },
+    "use_cases": [
+      {
+        "user_request": "Add Mary in the known faces.",
+        "command": "add_face('Mary')",
+        "return_description": "Guides the user to optimally capture the face of the person to be added."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "Add John to the face recognition system.",
+        "command": "add_face('John')"
+      },
+      {
+        "user_request": "Include Jane in the known faces database.",
+        "command": "add_face('Jane')"
+      },
+      {
+        "user_request": "Add Sarah to the recognized faces list.",
+        "command": "add_face('Sarah')"
+      },
+      {
+        "user_request": "Register David in the face recognition software.",
+        "command": "add_face('David')"
+      },
+      {
+        "user_request": "Add Emily to the faces I know.",
+        "command": "add_face('Emily')"
+      },
+      {
+        "user_request": "Include Michael in the face recognition program.",
+        "command": "add_face('Michael')"
+      },
+      {
+        "user_request": "Add Lisa to the faces I can identify.",
+        "command": "add_face('Lisa')"
+      },
+      {
+        "user_request": "Register Tom in the face recognition app.",
+        "command": "add_face('Tom')"
+      },
+      {
+        "user_request": "Add Jennifer to the faces database.",
+        "command": "add_face('Jennifer')"
+      },
+      {
+        "user_request": "Include Tim in the face recognition system.",
+        "command": "add_face('Tim')"
+      },
+      {
+        "user_request": "Add Jessica to the known faces list.",
+        "command": "add_face('Jessica')"
+      },
+      {
+        "user_request": "Register Alex in the face recognition software.",
+        "command": "add_face('Alex')"
+      },
+      {
+        "user_request": "Add Samantha to the faces I can recognize.",
+        "command": "add_face('Samantha')"
+      },
+      {
+        "user_request": "Include Matthew in the face recognition program.",
+        "command": "add_face('Matthew')"
+      },
+      {
+        "user_request": "Add Elizabeth to the faces I know.",
+        "command": "add_face('Elizabeth')"
+      },
+      {
+        "user_request": "Register Andrew in the face recognition app.",
+        "command": "add_face('Andrew')"
+      },
+      {
+        "user_request": "Add Olivia to the faces database.",
+        "command": "add_face('Olivia')"
+      },
+      {
+        "user_request": "Include Daniel in the face recognition system.",
+        "command": "add_face('Daniel')"
+      },
+      {
+        "user_request": "Add Sophia to the known faces list.",
+        "command": "add_face('Sophia')"
+      },
+      {
+        "user_request": "Register Christopher in the face recognition software.",
+        "command": "add_face('Christopher')"
+      },
+      {
+        "user_request": "Add Lauren to the faces I can identify.",
+        "command": "add_face('Lauren')"
+      },
+      {
+        "user_request": "Include Katherine in the face recognition program.",
+        "command": "add_face('Katherine')"
+      },
+      {
+        "user_request": "Add Julia to the faces I can recognize.",
+        "command": "add_face('Julia')"
+      },
+      {
+        "user_request": "Register Robert in the face recognition app.",
+        "command": "add_face('Robert')"
+      }
+    ]
+  },
+  {
+    "tool_name": "remove_face",
+    "description": "Allows removing a face to the face recognition's database.",
+    "parameters": {
+      "person_name": [
+        "string"
+      ]
+    },
+    "use_cases": [
+      {
+        "user_request": "Remove Joseph from the known faces.",
+        "command": "remove_face('Joseph')",
+        "return_description": "user_requests confirmation and, if unsure, enumerates possible profiles."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "Remove Sarah from the known faces.",
+        "command": "remove_face('Sarah')"
+      },
+      {
+        "user_request": "Delete John from the face recognition database.",
+        "command": "remove_face('John')"
+      },
+      {
+        "user_request": "Remove Emily's face from the system.",
+        "command": "remove_face('Emily')"
+      },
+      {
+        "user_request": "Delete Tom's face from the recognition database.",
+        "command": "remove_face('Tom')"
+      },
+      {
+        "user_request": "Remove Jane's face from the recognition system.",
+        "command": "remove_face('Jane')"
+      },
+      {
+        "user_request": "Delete Mark's face from the recognition system.",
+        "command": "remove_face('Mark')"
+      },
+      {
+        "user_request": "Remove Lisa's face from the recognition database.",
+        "command": "remove_face('Lisa')"
+      },
+      {
+        "user_request": "Delete David's face from the recognition database.",
+        "command": "remove_face('David')"
+      },
+      {
+        "user_request": "Remove Rachel's face from the recognition system.",
+        "command": "remove_face('Rachel')"
+      },
+      {
+        "user_request": "Delete Michael's face from the recognition system.",
+        "command": "remove_face('Michael')"
+      },
+      {
+        "user_request": "Remove Laura's face from the recognition database.",
+        "command": "remove_face('Laura')"
+      },
+      {
+        "user_request": "Delete Steven's face from the recognition database.",
+        "command": "remove_face('Steven')"
+      },
+      {
+        "user_request": "Remove Katherine's face from the recognition system.",
+        "command": "remove_face('Katherine')"
+      },
+      {
+        "user_request": "Delete Elizabeth's face from the recognition system.",
+        "command": "remove_face('Elizabeth')"
+      },
+      {
+        "user_request": "Remove Daniel's face from the recognition database.",
+        "command": "remove_face('Daniel')"
+      },
+      {
+        "user_request": "Delete Jennifer's face from the recognition database.",
+        "command": "remove_face('Jennifer')"
+      },
+      {
+        "user_request": "Remove Timothy's face from the recognition system.",
+        "command": "remove_face('Timothy')"
+      },
+      {
+        "user_request": "Delete Christine's face from the recognition system.",
+        "command": "remove_face('Christine')"
+      },
+      {
+        "user_request": "Remove Matthew's face from the recognition database.",
+        "command": "remove_face('Matthew')"
+      },
+      {
+        "user_request": "Delete Andrew's face from the recognition database.",
+        "command": "remove_face('Andrew')"
+      },
+      {
+        "user_request": "Remove Jessica's face from the recognition system.",
+        "command": "remove_face('Jessica')"
+      },
+      {
+        "user_request": "Delete James's face from the recognition system.",
+        "command": "remove_face('James')"
+      }
+    ]
+  },
+  {
+    "tool_name": "look_for_face",
+    "description": "Allows looking for a face from the face recognition's database.",
+    "parameters": {
+      "person_name": [
+        "string"
+      ]
+    },
+    "use_cases": [
+      {
+        "user_request": "Is Mary present?",
+        "command": "look_for_face('Mary')",
+        "return_description": "Responds and, if the person is present, offers to locate them."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "Is John in the room?",
+        "command": "look_for_face('John')"
+      },
+      {
+        "user_request": "Is Jane here?",
+        "command": "look_for_face('Jane')"
+      },
+      {
+        "user_request": "Is Tom present?",
+        "command": "look_for_face('Tom')"
+      },
+      {
+        "user_request": "Is Sarah around?",
+        "command": "look_for_face('Sarah')"
+      },
+      {
+        "user_request": "Is David in the building?",
+        "command": "look_for_face('David')"
+      },
+      {
+        "user_request": "Is Michael with us?",
+        "command": "look_for_face('Michael')"
+      },
+      {
+        "user_request": "Is Rachel here?",
+        "command": "look_for_face('Rachel')"
+      },
+      {
+        "user_request": "Is Tim in the area?",
+        "command": "look_for_face('Tim')"
+      },
+      {
+        "user_request": "Is Helen around?",
+        "command": "look_for_face('Helen')"
+      },
+      {
+        "user_request": "Is Jack present?",
+        "command": "look_for_face('Jack')"
+      },
+      {
+        "user_request": "Is Lisa inside?",
+        "command": "look_for_face('Lisa')"
+      },
+      {
+        "user_request": "Is Mark in the room?",
+        "command": "look_for_face('Mark')"
+      },
+      {
+        "user_request": "Is Olivia here?",
+        "command": "look_for_face('Olivia')"
+      },
+      {
+        "user_request": "Is Paul present?",
+        "command": "look_for_face('Paul')"
+      },
+      {
+        "user_request": "Is Quinn around?",
+        "command": "look_for_face('Quinn')"
+      },
+      {
+        "user_request": "Is Rebecca in the building?",
+        "command": "look_for_face('Rebecca')"
+      },
+      {
+        "user_request": "Is Sam inside?",
+        "command": "look_for_face('Sam')"
+      },
+      {
+        "user_request": "Is Tina here?",
+        "command": "look_for_face('Tina')"
+      },
+      {
+        "user_request": "Is Ursula present?",
+        "command": "look_for_face('Ursula')"
+      },
+      {
+        "user_request": "Is Violet around?",
+        "command": "look_for_face('Violet')"
+      },
+      {
+        "user_request": "Is William in the room?",
+        "command": "look_for_face('William')"
+      },
+      {
+        "user_request": "Is Xavier inside?",
+        "command": "look_for_face('Xavier')"
+      },
+      {
+        "user_request": "Is Yvonne here?",
+        "command": "look_for_face('Yvonne')"
+      },
+      {
+        "user_request": "Is Zoe present?",
+        "command": "look_for_face('Zoe')"
+      }
+    ]
+  },
+  {
+    "tool_name": "enumerate_individuals",
+    "description": "Allows adding a face to the face recognition's database.",
+    "parameters": {},
+    "use_cases": [
+      {
+        "user_request": "Who is present?",
+        "command": "enumerate_individuals()",
+        "return_description": "Returns a list of present individuals based on appearance order."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "Who is in the room?",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "List the people present",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Show me the faces",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Identify the individuals",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Recognize the people",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Display the faces",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Announce the people",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Tell me who's here",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Inform me of the people",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Show the recognized faces",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Announce the recognized faces",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "List the recognized faces",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Display the recognized faces",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Inform me of the recognized faces",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Show the identified faces",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Announce the identified faces",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "List the identified faces",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Display the identified faces",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Inform me of the identified faces",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Show the recognized individuals",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Announce the recognized individuals",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "List the recognized individuals",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Display the recognized individuals",
+        "command": "enumerate_individuals()"
+      },
+      {
+        "user_request": "Inform me of the recognized individuals",
+        "command": "enumerate_individuals()"
+      }
+    ]
+  },
+  {
+    "tool_name": "age_estimation",
+    "description": "Allows estimating the age from a face present in the face recognition's database.",
+    "parameters": {
+      "person_name": [
+        "string"
+      ]
+    },
+    "use_cases": [
+      {
+        "user_request": "What is Bob's age?",
+        "command": "age_estimation('Bob')",
+        "return_description": "Returns the estimated age of the person (only if in the assistant's database)."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "What is the age of Bob?",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "How old is Bob?",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Estimate Bob's age",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Tell me Bob's age",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Determine Bob's age",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Guess Bob's age",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "What age is Bob?",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Can you find Bob's age?",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Get Bob's age",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Tell me the age of Bob",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "What age is Bob?",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Can you tell me Bob's age?",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Please find Bob's age",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Can you estimate Bob's age?",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Can you determine Bob's age?",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Can you guess Bob's age?",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Can you tell me Bob's age?",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Can you find out Bob's age?",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Can you retrieve Bob's age?",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Can you get Bob's age?",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Can you provide Bob's age?",
+        "command": "age_estimation('Bob')"
+      },
+      {
+        "user_request": "Can you give me Bob's age?",
+        "command": "age_estimation('Bob')"
+      }
+    ]
+  },
+  {
+    "tool_name": "gender_estimation",
+    "description": "Allows estimating the gender from a face present in the face recognition's database.",
+    "parameters": {
+      "person_name": [
+        "string"
+      ]
+    },
+    "use_cases": [
+      {
+        "user_request": "What is Bill's gender?",
+        "command": "gender_estimation('Bill')",
+        "return_description": "Returns the estimated age or gender of the person (only if in the assistant's database)."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "What is the gender of John?",
+        "command": "gender_estimation('John')"
+      },
+      {
+        "user_request": "Can you tell me if Jane is a man or a woman?",
+        "command": "gender_estimation('Jane')"
+      },
+      {
+        "user_request": "Is Tom a male or a female?",
+        "command": "gender_estimation('Tom')"
+      },
+      {
+        "user_request": "What gender is Sarah?",
+        "command": "gender_estimation('Sarah')"
+      },
+      {
+        "user_request": "Tell me the gender of Michael.",
+        "command": "gender_estimation('Michael')"
+      },
+      {
+        "user_request": "Is Emily a man or a woman?",
+        "command": "gender_estimation('Emily')"
+      },
+      {
+        "user_request": "What is the gender of David?",
+        "command": "gender_estimation('David')"
+      },
+      {
+        "user_request": "Can you determine the gender of Lisa?",
+        "command": "gender_estimation('Lisa')"
+      },
+      {
+        "user_request": "Is Jack a male or a female?",
+        "command": "gender_estimation('Jack')"
+      },
+      {
+        "user_request": "What gender is Mary?",
+        "command": "gender_estimation('Mary')"
+      },
+      {
+        "user_request": "Tell me the gender of Jennifer.",
+        "command": "gender_estimation('Jennifer')"
+      },
+      {
+        "user_request": "Is Robert a man or a woman?",
+        "command": "gender_estimation('Robert')"
+      },
+      {
+        "user_request": "What is the gender of Katherine?",
+        "command": "gender_estimation('Katherine')"
+      },
+      {
+        "user_request": "Can you determine the gender of Steven?",
+        "command": "gender_estimation('Steven')"
+      },
+      {
+        "user_request": "Is Susan a male or a female?",
+        "command": "gender_estimation('Susan')"
+      },
+      {
+        "user_request": "What gender is Timothy?",
+        "command": "gender_estimation('Timothy')"
+      },
+      {
+        "user_request": "Tell me the gender of Elizabeth.",
+        "command": "gender_estimation('Elizabeth')"
+      },
+      {
+        "user_request": "Is Joseph a man or a woman?",
+        "command": "gender_estimation('Joseph')"
+      },
+      {
+        "user_request": "What is the gender of Rebecca?",
+        "command": "gender_estimation('Rebecca')"
+      },
+      {
+        "user_request": "Can you determine the gender of Daniel?",
+        "command": "gender_estimation('Daniel')"
+      },
+      {
+        "user_request": "Is Laura a male or a female?",
+        "command": "gender_estimation('Laura')"
+      },
+      {
+        "user_request": "What gender is Christopher?",
+        "command": "gender_estimation('Christopher')"
+      },
+      {
+        "user_request": "Tell me the gender of Jessica.",
+        "command": "gender_estimation('Jessica')"
+      },
+      {
+        "user_request": "Is Andrew a man or a woman?",
+        "command": "gender_estimation('Andrew')"
+      },
+      {
+        "user_request": "What is the gender of Rachel?",
+        "command": "gender_estimation('Rachel')"
+      },
+      {
+        "user_request": "Can you determine the gender of Matthew?",
+        "command": "gender_estimation('Matthew')"
+      },
+      {
+        "user_request": "Is Margaret a male or a female?",
+        "command": "gender_estimation('Margaret')"
+      },
+      {
+        "user_request": "What gender is Joshua?",
+        "command": "gender_estimation('Joshua')"
+      },
+      {
+        "user_request": "Tell me the gender of Emmanuel.",
+        "command": "gender_estimation('Emmanuel')"
+      },
+      {
+        "user_request": "Is Maria a man or a woman?",
+        "command": "gender_estimation('Maria')"
+      },
+      {
+        "user_request": "What is the gender of Benjamin?",
+        "command": "gender_estimation('Benjamin')"
+      },
+      {
+        "user_request": "Can you determine the gender of Victoria?",
+        "command": "gender_estimation('Victoria')"
+      },
+      {
+        "user_request": "Is Olivia a male or a female?",
+        "command": "gender_estimation('Olivia')"
+      },
+      {
+        "user_request": "What gender is Samuel?",
+        "command": "gender_estimation('Samuel')"
+      },
+      {
+        "user_request": "Tell me the gender of Gabrielle.",
+        "command": "gender_estimation('Gabrielle')"
+      },
+      {
+        "user_request": "Is Anthony a man or a woman?",
+        "command": "gender_estimation('Anthony')"
+      },
+      {
+        "user_request": "What is the gender of Isabella?",
+        "command": "gender_estimation('Isabella')"
+      },
+      {
+        "user_request": "Can you determine the gender of Alexander?",
+        "command": "gender_estimation('Alexander')"
+      },
+      {
+        "user_request": "Is Sophia a male or a female?",
+        "command": "gender_estimation('Sophia')"
+      },
+      {
+        "user_request": "What gender is William?",
+        "command": "gender_estimation('William')"
+      },
+      {
+        "user_request": "Tell me the gender of Taylor.",
+        "command": "gender_estimation('Taylor')"
+      },
+      {
+        "user_request": "Is Julia a man or a woman?",
+        "command": "gender_estimation('Julia')"
+      },
+      {
+        "user_request": "What is the gender of Nicholas?",
+        "command": "gender_estimation('Nicholas')"
+      },
+      {
+        "user_request": "Can you determine the gender of Elizabeth?",
+        "command": "gender_estimation('Elizabeth')"
+      },
+      {
+        "user_request": "Is Eric a male or a female?",
+        "command": "gender_estimation('Eric')"
+      },
+      {
+        "user_request": "What gender is Sophie?",
+        "command": "gender_estimation('Sophie')"
+      },
+      {
+        "user_request": "Tell me the gender of Charles.",
+        "command": "gender_estimation('Charles')"
+      },
+      {
+        "user_request": "Is Emma a man or a woman?",
+        "command": "gender_estimation('Emma')"
+      },
+      {
+        "user_request": "What is the gender of Danielle?",
+        "command": "gender_estimation('Danielle')"
+      },
+      {
+        "user_request": "Can you determine the gender of Christopher?",
+        "command": "gender_estimation('Christopher')"
+      },
+      {
+        "user_request": "Is Chloe a male or a female?",
+        "command": "gender_estimation('Chloe')"
+      },
+      {
+        "user_request": "What gender is Matthew?",
+        "command": "gender_estimation('Matthew')"
+      },
+      {
+        "user_request": "Tell me the gender of Jessica.",
+        "command": "gender_estimation('Jessica')"
+      },
+      {
+        "user_request": "Is Isabella a man or a woman?",
+        "command": "gender_estimation('Isabella')"
+      },
+      {
+        "user_request": "What is the gender of Alexander?",
+        "command": "gender_estimation('Alexander')"
+      },
+      {
+        "user_request": "Can you determine the gender of Olivia?",
+        "command": "gender_estimation('Olivia')"
+      },
+      {
+        "user_request": "Is Samuel a male or a female?",
+        "command": "gender_estimation('Samuel')"
+      },
+      {
+        "user_request": "What gender is Victoria?",
+        "command": "gender_estimation('Victoria')"
+      },
+      {
+        "user_request": "Tell me the gender of Benjamin.",
+        "command": "gender_estimation('Benjamin')"
+      },
+      {
+        "user_request": "Is Benjamin a man or a woman?",
+        "command": "gender_estimation('Benjamin')"
+      },
+      {
+        "user_request": "What is the gender of Taylor?",
+        "command": "gender_estimation('Taylor')"
+      },
+      {
+        "user_request": "Can you determine the gender of Julia?",
+        "command": "gender_estimation('Julia')"
+      },
+      {
+        "user_request": "Is Nicholas a male or a female?",
+        "command": "gender_estimation('Nicholas')"
+      },
+      {
+        "user_request": "What gender is Elizabeth?",
+        "command": "gender_estimation('Elizabeth')"
+      },
+      {
+        "user_request": "Tell me the gender of Eric.",
+        "command": "gender_estimation('Eric')"
+      },
+      {
+        "user_request": "Is Eric a man or a woman?",
+        "command": "gender_estimation('Eric')"
+      },
+      {
+        "user_request": "What is the gender of Sophie?",
+        "command": "gender_estimation('Sophie')"
+      },
+      {
+        "user_request": "Can you determine the gender of Charles?",
+        "command": "gender_estimation('Charles')"
+      },
+      {
+        "user_request": "Is Charles a male or a female?",
+        "command": "gender_estimation('Charles')"
+      }
+    ]
+  },
+  {
+    "tool_name": "emotion_estimation",
+    "description": "Allows estimating the emotion from a face present in the face recognition's database.",
+    "parameters": {
+      "person_name": [
+        "string"
+      ]
+    },
+    "use_cases": [
+      {
+        "user_request": "In what mood is Alice?",
+        "command": "emotion_estimation('Alice')",
+        "return_description": "Returns the estimated age or gender of the person (only if in the assistant's database)."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "What is Alice's current emotion?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "How does Alice feel today?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "What is the mood of Alice?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "Can you tell me Alice's emotional state?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "What emotion is Alice experiencing?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "Is Alice happy or sad?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "What is Alice's emotional expression?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "Can you detect Alice's emotions?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "What is Alice's emotional state right now?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "How does Alice's face look today?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "Can you tell me Alice's emotional condition?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "What is Alice's emotional reaction?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "Can you determine Alice's emotional state?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "What is Alice's emotional disposition?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "Can you analyze Alice's emotions?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "What is Alice's emotional appearance?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "Can you tell me Alice's emotional condition today?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "What is Alice's emotional state at the moment?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "Can you detect Alice's emotional state?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "What is Alice's emotional expression today?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "Can you determine Alice's emotional mood?",
+        "command": "emotion_estimation('Alice')"
+      },
+      {
+        "user_request": "What is Alice's emotional state right now?",
+        "command": "emotion_estimation('Alice')"
+      }
+    ]
+  },
+  {
+    "tool_name": "colors",
+    "description": "Recognizes the dominant color of objects in the environment.",
+    "parameters": {
+      "object_name": [
+        "string"
+      ]
+    },
+    "use_cases": [
+      {
+        "user_request": "What are the colors of the chair?",
+        "command": "colors('chair')",
+        "return_description": "Enumerates objects and indicates their colors."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "What are the colors of the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What is the dominant color of the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "Tell me the colors of the chair.",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "Describe the colors of the chair.",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What colors can you see on the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What is the main color of the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "Can you identify the colors of the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What colors does the chair have?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "Tell me about the colors of the chair.",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What colors can you detect on the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What are the primary colors of the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "Can you tell me the colors of the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What colors make up the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What colors can you find on the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What colors does the chair consist of?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What colors can you see in the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What colors does the chair contain?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "Can you describe the colors of the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What colors can you identify on the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What colors are present in the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What colors can you recognize on the chair?",
+        "command": "colors('chair')"
+      },
+      {
+        "user_request": "What colors can you perceive on the chair?",
+        "command": "colors('chair')"
+      }
+    ]
+  },
+  {
+    "tool_name": "object_color",
+    "description": "Identify the dominant color of objects",
+    "parameters": {
+      "object_name": [
+        "string"
+      ]
+    },
+    "use_cases": [
+      {
+        "user_request": "What is the main color of the chair?",
+        "command": "object_color('chair')",
+        "return_description": "If the object is visible, returns the dominant color of the object."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "What is the main color of the chair?",
+        "command": "object_color('chair')"
+      },
+      {
+        "user_request": "What is the primary color of the table?",
+        "command": "object_color('table')"
+      },
+      {
+        "user_request": "What is the dominant color of the sofa?",
+        "command": "object_color('sofa')"
+      },
+      {
+        "user_request": "What is the main color of the bookshelf?",
+        "command": "object_color('bookshelf')"
+      },
+      {
+        "user_request": "What is the dominant color of the carpet?",
+        "command": "object_color('carpet')"
+      },
+      {
+        "user_request": "What is the main color of the wall?",
+        "command": "object_color('wall')"
+      },
+      {
+        "user_request": "What is the primary color of the door?",
+        "command": "object_color('door')"
+      },
+      {
+        "user_request": "What is the dominant color of the painting?",
+        "command": "object_color('painting')"
+      },
+      {
+        "user_request": "What is the main color of the flower pot?",
+        "command": "object_color('flower pot')"
+      },
+      {
+        "user_request": "What is the primary color of the vase?",
+        "command": "object_color('vase')"
+      },
+      {
+        "user_request": "What is the dominant color of the lamp?",
+        "command": "object_color('lamp')"
+      },
+      {
+        "user_request": "What is the main color of the book?",
+        "command": "object_color('book')"
+      },
+      {
+        "user_request": "What is the primary color of the clock?",
+        "command": "object_color('clock')"
+      },
+      {
+        "user_request": "What is the dominant color of the rug?",
+        "command": "object_color('rug')"
+      },
+      {
+        "user_request": "What is the main color of the couch?",
+        "command": "object_color('couch')"
+      },
+      {
+        "user_request": "What is the primary color of the shelf?",
+        "command": "object_color('shelf')"
+      },
+      {
+        "user_request": "What is the dominant color of the pillow?",
+        "command": "object_color('pillow')"
+      },
+      {
+        "user_request": "What is the main color of the bed?",
+        "command": "object_color('bed')"
+      },
+      {
+        "user_request": "What is the primary color of the stairs?",
+        "command": "object_color('stairs')"
+      },
+      {
+        "user_request": "What is the dominant color of the fence?",
+        "command": "object_color('fence')"
+      },
+      {
+        "user_request": "What is the main color of the tree?",
+        "command": "object_color('tree')"
+      },
+      {
+        "user_request": "What is the primary color of the sky?",
+        "command": "object_color('sky')"
+      },
+      {
+        "user_request": "What is the dominant color of the grass?",
+        "command": "object_color('grass')"
+      }
+    ]
+  },
+  {
+    "tool_name": "ocr",
+    "description": "Reads text from objects.",
+    "parameters": {
+      "object_name": [
+        "string"
+      ]
+    },
+    "use_cases": [
+      {
+        "user_request": "Read the text on the box.",
+        "command": "ocr('box')",
+        "return_description": "Returns a vocal transcription of the text."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "Read the text on the sign.",
+        "command": "ocr('sign')"
+      },
+      {
+        "user_request": "Read the text on the label.",
+        "command": "ocr('label')"
+      },
+      {
+        "user_request": "Read the text on the menu.",
+        "command": "ocr('menu')"
+      },
+      {
+        "user_request": "Read the text on the document.",
+        "command": "ocr('document')"
+      },
+      {
+        "user_request": "Read the text on the receipt.",
+        "command": "ocr('receipt')"
+      },
+      {
+        "user_request": "Read the text on the book.",
+        "command": "ocr('book')"
+      },
+      {
+        "user_request": "Read the text on the magazine.",
+        "command": "ocr('magazine')"
+      },
+      {
+        "user_request": "Read the text on the newspaper.",
+        "command": "ocr('newspaper')"
+      },
+      {
+        "user_request": "Read the text on the flyer.",
+        "command": "ocr('flyer')"
+      },
+      {
+        "user_request": "Read the text on the business card.",
+        "command": "ocr('business card')"
+      },
+      {
+        "user_request": "Read the text on the poster.",
+        "command": "ocr('poster')"
+      },
+      {
+        "user_request": "Read the text on the billboard.",
+        "command": "ocr('billboard')"
+      },
+      {
+        "user_request": "Read the text on the street sign.",
+        "command": "ocr('street sign')"
+      },
+      {
+        "user_request": "Read the text on the traffic sign.",
+        "command": "ocr('traffic sign')"
+      },
+      {
+        "user_request": "Read the text on the warning sign.",
+        "command": "ocr('warning sign')"
+      },
+      {
+        "user_request": "Read the text on the package.",
+        "command": "ocr('package')"
+      },
+      {
+        "user_request": "Read the text on the envelope.",
+        "command": "ocr('envelope')"
+      },
+      {
+        "user_request": "Read the text on the brochure.",
+        "command": "ocr('brochure')"
+      },
+      {
+        "user_request": "Read the text on the ticket.",
+        "command": "ocr('ticket')"
+      },
+      {
+        "user_request": "Read the text on the board.",
+        "command": "ocr('board')"
+      },
+      {
+        "user_request": "Read the text on the display.",
+        "command": "ocr('display')"
+      },
+      {
+        "user_request": "Read the text on the screen.",
+        "command": "ocr('screen')"
+      }
+    ]
+  },
+  {
+    "tool_name": "ocr_objects",
+    "description": "Returns a list of objects with text on them.",
+    "parameters": {},
+    "use_cases": [
+      {
+        "user_request": "Is there any text in the room?",
+        "command": "ocr_objects()",
+        "return_description": "Returns a list of objects with text."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "Can you detect any text in the room?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Are there any objects with text on them?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Can you find any text in the environment?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Is there any written information present?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Can you identify any objects with writing?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Are there any items with text to read?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Can you locate any text in the area?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Are there any texts or signs around?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Can you detect any written content?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Is there any text that can be read?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Can you find any objects with text?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Are there any texts or labels to read?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Can you identify any objects with writing?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Are there any items with text on them?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Can you locate any text in the environment?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Are there any texts or signs present?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Can you detect any written information?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Is there any text that can be read aloud?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Can you find any objects with text on them?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Are there any texts or labels to be read?",
+        "command": "ocr_objects()"
+      },
+      {
+        "user_request": "Can you identify any objects with writing on them?",
+        "command": "ocr_objects()"
+      }
+    ]
+  },
+  {
+    "tool_name": "money",
+    "description": "Recognizes the value and currency of coins and banknotes. Returns a list of detected elements and the total amount.",
+    "parameters": {},
+    "use_cases": [
+      {
+        "user_request": "How much money is there?",
+        "command": "money()",
+        "return_description": "Returns a list of detected elements and the total amount."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "How much money is there?",
+        "command": "money()"
+      },
+      {
+        "user_request": "What is the total amount of money?",
+        "command": "money()"
+      },
+      {
+        "user_request": "Tell me the value of the currency",
+        "command": "money()"
+      },
+      {
+        "user_request": "Identify the currency for me",
+        "command": "money()"
+      },
+      {
+        "user_request": "How many coins and banknotes do I have?",
+        "command": "money()"
+      },
+      {
+        "user_request": "What is the currency of my money?",
+        "command": "money()"
+      },
+      {
+        "user_request": "Determine the value of my money",
+        "command": "money()"
+      },
+      {
+        "user_request": "Count the money for me",
+        "command": "money()"
+      },
+      {
+        "user_request": "Tell me the denomination of my coins and banknotes",
+        "command": "money()"
+      },
+      {
+        "user_request": "How much is my money worth?",
+        "command": "money()"
+      },
+      {
+        "user_request": "Analyze the currency for me",
+        "command": "money()"
+      },
+      {
+        "user_request": "Inform me of the currency value",
+        "command": "money()"
+      },
+      {
+        "user_request": "Recognize the currency for me",
+        "command": "money()"
+      },
+      {
+        "user_request": "Calculate the total amount of my money",
+        "command": "money()"
+      },
+      {
+        "user_request": "Identify the currency value",
+        "command": "money()"
+      },
+      {
+        "user_request": "Determine the total value of my money",
+        "command": "money()"
+      },
+      {
+        "user_request": "Analyze the currency value for me",
+        "command": "money()"
+      },
+      {
+        "user_request": "Tell me the total value of my money",
+        "command": "money()"
+      },
+      {
+        "user_request": "Count and identify the currency for me",
+        "command": "money()"
+      },
+      {
+        "user_request": "Inform me of the total currency value",
+        "command": "money()"
+      },
+      {
+        "user_request": "Recognize and count my money",
+        "command": "money()"
+      }
+    ]
+  },
+  {
+    "tool_name": "environment_description",
+    "description": "Describes the environment.",
+    "parameters": {},
+    "use_cases": [
+      {
+        "user_request": "Describe the environment.",
+        "command": "environment_description()",
+        "return_description": "Provides a 'caption' regarding what the assistant sees or a list of visible objects for the assistant."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "Tell me about the environment.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Describe the surroundings.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "What does the area look like?",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Give me a description of the scene.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Tell me about the setting.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Provide an overview of the location.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Describe the landscape.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Tell me about the place.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Give me a brief of the location.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "What can you see around here?",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Describe the area for me.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Tell me about the scene around me.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Give me a summary of the environment.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Describe the location to me.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Tell me about the surroundings.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Give me a description of the place.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Tell me about the area.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Describe the environment for me.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Give me a brief description of the location.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Tell me about the scene around us.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Describe the area around me.",
+        "command": "environment_description()"
+      },
+      {
+        "user_request": "Give me a summary of the surroundings.",
+        "command": "environment_description()"
+      }
+    ]
+  },
+  {
+    "tool_name": "environment_question",
+    "description": "Answers questions about the environment.",
+    "parameters": {},
+    "use_cases": [
+      {
+        "user_request": "Am I in a garden?",
+        "command": "environment_question('Am I in a garden?')",
+        "return_description": "Responds to the question."
+      }
+    ],
+    "dataset": [
+      {
+        "user_request": "What is the weather like today?",
+        "command": "environment_question('What is the weather like today?')"
+      },
+      {
+        "user_request": "Is it sunny outside?",
+        "command": "environment_question('Is it sunny outside?')"
+      },
+      {
+        "user_request": "Is it raining?",
+        "command": "environment_question('Is it raining?')"
+      },
+      {
+        "user_request": "What is the temperature?",
+        "command": "environment_question('What is the temperature?')"
+      },
+      {
+        "user_request": "Is it windy?",
+        "command": "environment_question('Is it windy?')"
+      },
+      {
+        "user_request": "Is it cloudy?",
+        "command": "environment_question('Is it cloudy?')"
+      },
+      {
+        "user_request": "Is it snowing?",
+        "command": "environment_question('Is it snowing?')"
+      },
+      {
+        "user_request": "Is it a clear day?",
+        "command": "environment_question('Is it a clear day?')"
+      },
+      {
+        "user_request": "Is it foggy?",
+        "command": "environment_question('Is it foggy?')"
+      },
+      {
+        "user_request": "Is it humid?",
+        "command": "environment_question('Is it humid?')"
+      },
+      {
+        "user_request": "Is it hot or cold?",
+        "command": "environment_question('Is it hot or cold?')"
+      },
+      {
+        "user_request": "Is it a good day for a walk?",
+        "command": "environment_question('Is it a good day for a walk?')"
+      },
+      {
+        "user_request": "Is it a good day for a picnic?",
+        "command": "environment_question('Is it a good day for a picnic?')"
+      },
+      {
+        "user_request": "Is it a good day for a swim?",
+        "command": "environment_question('Is it a good day for a swim?')"
+      },
+      {
+        "user_request": "Is it a good day for a bike ride?",
+        "command": "environment_question('Is it a good day for a bike ride?')"
+      },
+      {
+        "user_request": "Is it a good day for gardening?",
+        "command": "environment_question('Is it a good day for gardening?')"
+      },
+      {
+        "user_request": "Is it a good day for a hike?",
+        "command": "environment_question('Is it a good day for a hike?')"
+      },
+      {
+        "user_request": "Is it a good day for a run?",
+        "command": "environment_question('Is it a good day for a run?')"
+      },
+      {
+        "user_request": "Is it a good day for a walk with my dog?",
+        "command": "environment_question('Is it a good day for a walk with my dog?')"
+      },
+      {
+        "user_request": "Is it a good day for a barbecue?",
+        "command": "environment_question('Is it a good day for a barbecue?')"
+      },
+      {
+        "user_request": "Is it a good day for a beach trip?",
+        "command": "environment_question('Is it a good day for a beach trip?')"
+      }
+    ]
+  }
+]

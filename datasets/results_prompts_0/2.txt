@@ -1,0 +1,29 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'navigation(destination: string)' is a tool that Enables navigation to a specified destination.
+You should use the following format for your answers: `{'user_request': '<the generated user request>', 'command': 'command_to_execute(parameters)'}`
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Navigate to the nearest grocery store", "command": "navigation(destination: 'grocery store')"},
+{"user_request": "Take me to the park", "command": "navigation(destination: 'park')"},
+{"user_request": "Guide me to the bus stop", "command": "navigation(destination: 'bus stop')"},
+{"user_request": "Walk me to the library", "command": "navigation(destination: 'library')"},
+{"user_request": "Lead me to the post office", "command": "navigation(destination: 'post office')"},s
+{"user_request": "Direct me to the pharmacy", "command": "navigation(destination: 'pharmacy')"},
+{"user_request": "Help me find the museum", "command": "navigation(destination: 'museum')"},
+{"user_request": "Assist me in reaching the theater", "command": "navigation(destination: 'theater')"},
+{"user_request": "Escort me to the coffee shop", "command": "navigation(destination: 'coffee shop')"},
+{"user_request": "Show me the way to the gym", "command": "navigation(destination: 'gym')"},
+{"user_request": "Guide me to the bank", "command": "navigation(destination: 'bank')"},
+{"user_request": "Walk me to the restaurant", "command": "navigation(destination: 'restaurant')"},
+{"user_request": "Lead me to the bookstore", "command": "navigation(destination: 'bookstore')"},
+{"user_request": "Direct me to the hospital", "command": "navigation(destination: 'hospital')"},
+{"user_request": "Help me find the shopping mall", "command": "navigation(destination: 'shopping mall')"},
+{"user_request": "Assist me in reaching the airport", "command": "navigation(destination: 'airport')"},
+{"user_request": "Escort me to the train station", "command": "navigation(destination: 'train station')"},
+{"user_request": "Show me the way to the cinema", "command": "navigation(destination: 'cinema')"},
+{"user_request": "Guide me to the community center", "command": "navigation(destination: 'community center')"},
+{"user_request": "Walk me to the art gallery", "command": "navigation(destination: 'art gallery')"},
+{"user_request": "Lead me to the sports complex", "command": "navigation(destination: 'sports complex')"},
+{"user_request": "Direct me to the city hall", "command": "navigation(destination: 'city hall')"}
+]</s>

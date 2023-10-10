@@ -1,0 +1,31 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'position()' is a tool that Allows the user to know their current location.
+You should use the following format for your answers: `{'user_request': '<the generated user request>', 'command': 'command_to_execute(parameters)'}`
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "What is my current location?", "command": "position()"},
+{"user_request": "Tell me where I am.", "command": "position()"},
+{"user_request": "What is my position?", "command": "position()"},
+{"user_request": "Give me my location.", "command": "position()"},
+{"user_request": "Tell me my position.", "command": "position()"},
+{"user_request": "What is my current position?", "command": "position()"},
+{"user_request": "What is my current location?", "command": "position()"},
+{"user_request": "What is my position right now?", "command": "position()"},
+{"user_request": "Give me my current location.", "command": "position()"},
+{"user_request": "Tell me my current position.", "command": "position()"},
+{"user_request": "What is my current position?", "command": "position()"},
+{"user_request": "What is my location right now?", "command": "position()"},
+{"user_request": "Give me my location.", "command": "position()"},
+{"user_request": "Tell me my location.", "command": "position()"},
+{"user_request": "What is my current location?", "command": "position()"},
+{"user_request": "What is my position?", "command": "position()"},
+{"user_request": "Give me my position.", "command": "position()"},
+{"user_request": "Tell me my position.", "command": "position()"},
+{"user_request": "What is my current position?", "command": "position()"},
+{"user_request": "What is my location?", "command": "position()"},
+{"user_request": "Give me my location.", "command": "position()"},
+{"user_request": "Tell me my location.", "command": "position()"},
+{"user_request": "What is my location right now?", "command": "position()"},
+{"user_request": "What is my position right now?", "command": "position()"},
+]</s>

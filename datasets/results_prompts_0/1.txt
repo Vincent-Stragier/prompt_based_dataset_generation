@@ -1,0 +1,29 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'enumerate_objects()' is a tool that Detects objects in the environment and returns a list of recognized objects.
+You should use the following format for your answers: `{'user_request': '<the generated user request>', 'command': 'command_to_execute(parameters)'}`
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "List the objects in the room", "command": "enumerate_objects()"},
+{"user_request": "Tell me what's around me", "command": "enumerate_objects()"},
+{"user_request": "Describe the environment", "command": "enumerate_objects()"},
+{"user_request": "Identify the items present", "command": "enumerate_objects()"},
+{"user_request": "Inventory the objects nearby", "command": "enumerate_objects()"},
+{"user_request": "What objects can you see?", "command": "enumerate_objects()"},
+{"user_request": "Tell me about the objects nearby", "command": "enumerate_objects()"},
+{"user_request": "What's in my surroundings?", "command": "enumerate_objects()"},
+{"user_request": "List the items around me", "command": "enumerate_objects()"},
+{"user_request": "Describe the objects in the area", "command": "enumerate_objects()"},
+{"user_request": "Tell me about the objects in the room", "command": "enumerate_objects()"},
+{"user_request": "What objects are around me?", "command": "enumerate_objects()"},
+{"user_request": "Inform me about the objects nearby", "command": "enumerate_objects()"},
+{"user_request": "What objects can you detect?", "command": "enumerate_objects()"},
+{"user_request": "Tell me about the objects in my vicinity", "command": "enumerate_objects()"},
+{"user_request": "List the items in the area", "command": "enumerate_objects()"},
+{"user_request": "Describe the objects around me", "command": "enumerate_objects()"},
+{"user_request": "What objects are in the room?", "command": "enumerate_objects()"},
+{"user_request": "Inform me about the objects in the environment", "command": "enumerate_objects()"},
+{"user_request": "Tell me about the objects nearby", "command": "enumerate_objects()"},
+{"user_request": "What objects can you see around me?", "command": "enumerate_objects()"},
+{"user_request": "List the objects in my surroundings", "command": "enumerate_objects()"}
+]</s>

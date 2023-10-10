@@ -1,0 +1,32 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'remove_face(person_name: string)' is a tool that Allows removing a face to the face recognition's database.
+One possible user request is: `Remove Joseph from the known faces.`
+the format of the generation should follow this:
+ {'user_request': 'Remove Joseph from the known faces.', 'command': "remove_face('Joseph')"}
+and you should generate other possible user requests.
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Remove Sarah from the known faces.", "command": "remove_face('Sarah')"},
+{"user_request": "Delete John from the face recognition database.", "command": "remove_face('John')"},
+{"user_request": "Remove Emily's face from the system.", "command": "remove_face('Emily')"},
+{"user_request": "Delete Tom's face from the recognition database.", "command": "remove_face('Tom')"},
+{"user_request": "Remove Jane's face from the recognition system.", "command": "remove_face('Jane')"},
+{"user_request": "Delete Mark's face from the recognition system.", "command": "remove_face('Mark')"},
+{"user_request": "Remove Lisa's face from the recognition database.", "command": "remove_face('Lisa')"},
+{"user_request": "Delete David's face from the recognition database.", "command": "remove_face('David')"},
+{"user_request": "Remove Rachel's face from the recognition system.", "command": "remove_face('Rachel')"},
+{"user_request": "Delete Michael's face from the recognition system.", "command": "remove_face('Michael')"},
+{"user_request": "Remove Laura's face from the recognition database.", "command": "remove_face('Laura')"},
+{"user_request": "Delete Steven's face from the recognition database.", "command": "remove_face('Steven')"},
+{"user_request": "Remove Katherine's face from the recognition system.", "command": "remove_face('Katherine')"},
+{"user_request": "Delete Elizabeth's face from the recognition system.", "command": "remove_face('Elizabeth')"},
+{"user_request": "Remove Daniel's face from the recognition database.", "command": "remove_face('Daniel')"},
+{"user_request": "Delete Jennifer's face from the recognition database.", "command": "remove_face('Jennifer')"},
+{"user_request": "Remove Timothy's face from the recognition system.", "command": "remove_face('Timothy')"},
+{"user_request": "Delete Christine's face from the recognition system.", "command": "remove_face('Christine')"},
+{"user_request": "Remove Matthew's face from the recognition database.", "command": "remove_face('Matthew')"},
+{"user_request": "Delete Andrew's face from the recognition database.", "command": "remove_face('Andrew')"},
+{"user_request": "Remove Jessica's face from the recognition system.", "command": "remove_face('Jessica')"},
+{"user_request": "Delete James's face from the recognition system.", "command": "remove_face('James')"}
+]</s>

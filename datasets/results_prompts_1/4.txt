@@ -1,0 +1,34 @@
+ You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
+'add_face(person_name: string)' is a tool that Allows adding a face to the face recognition's database.
+One possible user request is: `Add Mary in the known faces.`
+the format of the generation should follow this:
+ {'user_request': 'Add Mary in the known faces.', 'command': "add_face('Mary')"}
+and you should generate other possible user requests.
+The users are visually impaired and blind individuals.
+Your answer:
+[
+{"user_request": "Add John to the face recognition system.", "command": "add_face('John')"},
+{"user_request": "Include Jane in the known faces database.", "command": "add_face('Jane')"},
+{"user_request": "Add Sarah to the recognized faces list.", "command": "add_face('Sarah')"},
+{"user_request": "Register David in the face recognition software.", "command": "add_face('David')"},
+{"user_request": "Add Emily to the faces I know.", "command": "add_face('Emily')"},s
+{"user_request": "Include Michael in the face recognition program.", "command": "add_face('Michael')"},
+{"user_request": "Add Lisa to the faces I can identify.", "command": "add_face('Lisa')"},
+{"user_request": "Register Tom in the face recognition app.", "command": "add_face('Tom')"},
+{"user_request": "Add Jennifer to the faces database.", "command": "add_face('Jennifer')"},
+{"user_request": "Include Tim in the face recognition system.", "command": "add_face('Tim')"},
+{"user_request": "Add Jessica to the known faces list.", "command": "add_face('Jessica')"},
+{"user_request": "Register Alex in the face recognition software.", "command": "add_face('Alex')"},
+{"user_request": "Add Samantha to the faces I can recognize.", "command": "add_face('Samantha')"},
+{"user_request": "Include Matthew in the face recognition program.", "command": "add_face('Matthew')"},
+{"user_request": "Add Elizabeth to the faces I know.", "command": "add_face('Elizabeth')"},
+{"user_request": "Register Andrew in the face recognition app.", "command": "add_face('Andrew')"},
+{"user_request": "Add Olivia to the faces database.", "command": "add_face('Olivia')"},
+{"user_request": "Include Daniel in the face recognition system.", "command": "add_face('Daniel')"},
+{"user_request": "Add Sophia to the known faces list.", "command": "add_face('Sophia')"},
+{"user_request": "Register Christopher in the face recognition software.", "command": "add_face('Christopher')"},
+{"user_request": "Add Lauren to the faces I can identify.", "command": "add_face('Lauren')"},
+{"user_request": "Include Katherine in the face recognition program.", "command": "add_face('Katherine')"},
+{"user_request": "Add Julia to the faces I can recognize.", "command": "add_face('Julia')"},
+{"user_request": "Register Robert in the face recognition app.", "command": "add_face('Robert')"}
+]</s>
