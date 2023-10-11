@@ -1,5 +1,5 @@
  You are a truthful assistant whose role is to generate 20 possible user requests for the following assistive tool:
-'enumerate_individuals()' is a tool that Allows adding a face to the face recognition's database.
+'enumerate_individuals()' is a tool that Allows 'enumerating' at a given instant the name of all the recognized persons present in the face recognition's database.
 One possible user request is: `Who is present?`
 the format of the generation should follow this:
  {'user_request': 'Who is present?', 'command': 'enumerate_individuals()'}
@@ -7,28 +7,31 @@ and you should generate other possible user requests.
 The users are visually impaired and blind individuals.
 Your answer:
 [
-{"user_request": "Who is in the room?", "command": "enumerate_individuals()"},
-{"user_request": "List the people present", "command": "enumerate_individuals()"},
-{"user_request": "Show me the faces", "command": "enumerate_individuals()"},
+{"user_request": "Who is present?", "command": "enumerate_individuals()"},
+{"user_request": "List the people here", "command": "enumerate_individuals()"},
+{"user_request": "Tell me who's in the room", "command": "enumerate_individuals()"},
 {"user_request": "Identify the individuals", "command": "enumerate_individuals()"},
+{"user_request": "Show me the people", "command": "enumerate_individuals()"},
+{"user_request": "Display the names", "command": "enumerate_individuals()"},
 {"user_request": "Recognize the people", "command": "enumerate_individuals()"},
-{"user_request": "Display the faces", "command": "enumerate_individuals()"},
-{"user_request": "Announce the people", "command": "enumerate_individuals()"},
-{"user_request": "Tell me who's here", "command": "enumerate_individuals()"},
+{"user_request": "Announce the individuals", "command": "enumerate_individuals()"},
 {"user_request": "Inform me of the people", "command": "enumerate_individuals()"},
-{"user_request": "Show the recognized faces", "command": "enumerate_individuals()"},
-{"user_request": "Announce the recognized faces", "command": "enumerate_individuals()"},
-{"user_request": "List the recognized faces", "command": "enumerate_individuals()"},
-{"user_request": "Display the recognized faces", "command": "enumerate_individuals()"},
-{"user_request": "Inform me of the recognized faces", "command": "enumerate_individuals()"},
-{"user_request": "Show the identified faces", "command": "enumerate_individuals()"},
-{"user_request": "Announce the identified faces", "command": "enumerate_individuals()"},
-{"user_request": "List the identified faces", "command": "enumerate_individuals()"},
-{"user_request": "Display the identified faces", "command": "enumerate_individuals()"},
-{"user_request": "Inform me of the identified faces", "command": "enumerate_individuals()"},
+{"user_request": "Tell me who's here", "command": "enumerate_individuals()"},
+{"user_request": "List the recognized people", "command": "enumerate_individuals()"},
 {"user_request": "Show the recognized individuals", "command": "enumerate_individuals()"},
-{"user_request": "Announce the recognized individuals", "command": "enumerate_individuals()"},
-{"user_request": "List the recognized individuals", "command": "enumerate_individuals()"},
-{"user_request": "Display the recognized individuals", "command": "enumerate_individuals()"},
-{"user_request": "Inform me of the recognized individuals", "command": "enumerate_individuals()"}
+{"user_request": "Display the recognized people", "command": "enumerate_individuals()"},
+{"user_request": "Announce the recognized people", "command": "enumerate_individuals()"},
+{"user_request": "Inform me of the recognized people", "command": "enumerate_individuals()"},
+{"user_request": "Tell me who's been recognized", "command": "enumerate_individuals()"},
+{"user_request": "List the people that have been recognized", "command": "enumerate_individuals()"},
+{"user_request": "Show the people that have been recognized", "command": "enumerate_individuals()"},
+{"user_request": "Display the people that have been recognized", "command": "enumerate_individuals()"},
+{"user_request": "Announce the people that have been recognized", "command": "enumerate_individuals()"},
+{"user_request": "Inform me of the people that have been recognized", "command": "enumerate_individuals()"},
+{"user_request": "Tell me who's been identified", "command": "enumerate_individuals()"},
+{"user_request": "List the people that have been identified", "command": "enumerate_individuals()"},
+{"user_request": "Show the people that have been identified", "command": "enumerate_individuals()"},
+{"user_request": "Display the people that have been identified", "command": "enumerate_individuals()"},
+{"user_request": "Announce the people that have been identified", "command": "enumerate_individuals()"},
+{"user_request": "Inform me of the people that have been identified", "command": "enumerate_individuals()"}
 ]</s>

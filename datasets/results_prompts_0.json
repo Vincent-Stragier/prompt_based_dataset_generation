@@ -1114,7 +1114,7 @@
   },
   {
     "tool_name": "enumerate_individuals",
-    "description": "Allows adding a face to the face recognition's database.",
+    "description": "Allows 'enumerating' at a given instant the name of all the recognized persons present in the face recognition's database.",
     "parameters": {},
     "use_cases": [
       {
@@ -1125,118 +1125,118 @@
     ],
     "dataset": [
       {
-        "user_request": "Add a new face to the database",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "List all the people in the database",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Store the face of the person I just showed",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Show me the names of everyone in the system",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Register the face in the system",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Tell me who is in the database right now",
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.16666666291666676
+      },
+      {
+        "user_request": "Display the names of all recognized persons",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Save the face for future recognition",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Provide a list of people the system knows",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Remember the face of this individual",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Give me the names of everyone the system can identify",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Teach the system to recognize this face",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Show me the list of people the system recognizes",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Let the system know this person's face",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Tell me the names of all the people the system has seen",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Introduce a new face to the system",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Display the list of people the system has encountered",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Help the system to identify this face",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Provide the names of everyone the system has met",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Allow the system to learn this face",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Show me the list of people the system is familiar with",
+        "command": "enumerate_individuals()",
+        "rouge_score": 0.15384615029585808
+      },
+      {
+        "user_request": "Tell me the names of all the people the system knows about",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Give the system a new face to recognize",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Display the list of people the system has seen before",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Teach the system about this person's face",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Provide the names of everyone the system has come across",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Add a face to the system's memory",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Show me the list of people the system has encountered before",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Help the system to memorize this face",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Tell me the names of all the people the system has recognized",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Let the system discover this face",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Display the list of people the system has met before",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Assist the system in recognizing this face",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Provide the names of everyone the system has come across before",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Allow the system to become familiar with this face",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Show me the list of people the system has seen in the past",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Give the system a face to remember",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Tell me the names of all the people the system has encountered before",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Help the system to get to know this face",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Display the list of people the system has recognized in the past",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Teach the system to identify this person's face",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Provide the names of everyone the system has met before",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       },
       {
-        "user_request": "Add a face to the system's database",
-        "command": "enumerate_individuals('add_face', face_image_path)",
-        "rouge_score": 0.0
-      },
-      {
-        "user_request": "Instruct the system to recognize this face",
-        "command": "enumerate_individuals('add_face', face_image_path)",
-        "rouge_score": 0.0
-      },
-      {
-        "user_request": "Introduce this face to the system",
-        "command": "enumerate_individuals('add_face', face_image_path)",
+        "user_request": "Show me the list of people the system has seen before",
+        "command": "enumerate_individuals()",
         "rouge_score": 0.0
       }
     ]
